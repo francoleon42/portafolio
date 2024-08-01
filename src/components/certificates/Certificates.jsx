@@ -23,11 +23,11 @@ const Certificates = () => {
 
         if(count <= 1) {
             const newCount = certificates.length
-            const newOperator = widthImg * (certificates.length - 1)
+            //const newOperator = widthImg * (certificates.length - 1)
             setCount(newCount)
             setOperator(newOperator)
         }else {
-            const newOperator = Math.max(operator - widthImg, 0)
+            //const newOperator = Math.max(operator - widthImg, 0)
             setOperator(newOperator)
         }
 
@@ -39,7 +39,7 @@ const Certificates = () => {
             setCount(1)
             setOperator(0)
         }else {
-            const newOperator = Math.min(operator + widthImg, (certificates.length - 1) * 100)
+            //const newOperator = Math.min(operator + widthImg, (certificates.length - 1) * 100)
             setOperator(newOperator)
         }
 
