@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { themes } from '../../utils/Data'
 import ThemeItem from './ThemeItem'
 import { FaCog, FaMoon } from 'react-icons/fa'
-import { BsSun, BsMoon } from 'react-icons/bs'
+import { BsSun } from 'react-icons/bs'
 import './themes.css'
 
 const getStorageColor = () => {

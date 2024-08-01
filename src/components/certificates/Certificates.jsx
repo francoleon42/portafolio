@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'; // Importar useEffect y useState de 'react'
-import { certificates } from '../../utils/Data'; // Asegúrate de que el archivo Data.js exporte certificates correctamente
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"; // Importar ambos iconos en una sola línea
-import './certificates.css'; // Asegúrate de que el archivo CSS exista
+import React, { useEffect, useState } from 'react';
+import { certificates } from '../../utils/Data';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import './certificates.css';
 
 const Certificates = () => {
     const [operator, setOperator] = useState(0);
     const [count, setCount] = useState(1);
-    const [widthImg, setWidthImg] = useState(100 / certificates.length); // Definir widthImg basado en el número de certificados
+    const widthImg = 100 / certificates.length; // Eliminar setWidthImg ya que no se usa
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -14,7 +14,7 @@ const Certificates = () => {
         }, 3000);
 
         return () => clearInterval(interval);
-    }, [operator]);
+    }, [operator]); // La dependencia está correcta para el uso actual
 
     const moveToLeft = () => {
         setCount(prevCount => {
@@ -49,7 +49,7 @@ const Certificates = () => {
                     >
                         {certificates.map(({ img }, index) => (
                             <article key={index} className="slider-section">
-                                <img src={img} alt={`certificate_img_${index}`} /> {/* Uso de índice en el alt para mejorar accesibilidad */}
+                                <img src={img} alt={`certificate_img_${index}`} />
                             </article>
                         ))}
                     </div>
