@@ -1,12 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { certificates } from '../../utils/Data';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import './certificates.css';
 
 const Certificates = () => {
     const [operator, setOperator] = useState(0);
-    const [count, setCount] = useState(1);
-    const widthImg = 100 / certificates.length; // Eliminar setWidthImg ya que no se usa
+
+    const widthImg = 100 / certificates.length;
+
+    const moveToLeft = useCallback(() => {
+        setOperator(prevOperator => {
+            const newOperator = prevOperator === 0 ? (certificates.length - 1) * widthImg : prevOperator - widthImg;
+            return newOperator;
+        });
+    }, [widthImg]);
+
+    const moveToRight = useCallback(() => {
+        setOperator(prevOperator => {
+            const newOperator = prevOperator === (certificates.length - 1) * widthImg ? 0 : prevOperator + widthImg;
+            return newOperator;
+        });
+    }, [widthImg]);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -14,29 +28,7 @@ const Certificates = () => {
         }, 3000);
 
         return () => clearInterval(interval);
-    }, [operator]); // La dependencia está correcta para el uso actual
-
-    const moveToLeft = () => {
-        setCount(prevCount => {
-            // Calcular nuevo count
-            const newCount = prevCount <= 1 ? certificates.length : prevCount - 1;
-            // Calcular nuevo operator
-            const newOperator = newCount === certificates.length ? 0 : operator - widthImg;
-            setOperator(newOperator);
-            return newCount;
-        });
-    };
-
-    const moveToRight = () => {
-        setCount(prevCount => {
-            // Calcular nuevo count
-            const newCount = prevCount >= certificates.length ? 1 : prevCount + 1;
-            // Calcular nuevo operator
-            const newOperator = newCount === 1 ? 0 : operator + widthImg;
-            setOperator(newOperator);
-            return newCount;
-        });
-    };
+    }, [moveToRight]);
 
     return (
         <section id='certificate' className='certificate container'>
