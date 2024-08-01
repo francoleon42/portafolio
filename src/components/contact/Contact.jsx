@@ -16,6 +16,7 @@ const Contact = () => {
                   href={path}
                   title={title}
                   target='_blank'
+				  rel="noreferrer"
                 >{icon}</a>
               </li>
             )

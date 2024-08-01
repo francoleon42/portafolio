@@ -8,7 +8,7 @@ import './certificates.css';
 const Certificates = () => {
     const [operator, setOperator] = useState(0)
     const [count, setCount] = useState(1)
-    const [widthImg, setWidthImg] = useState(100 / certificates.length)
+    //const [widthImg, setWidthImg] = useState(100 / certificates.length)
 
     useEffect(() => {
         const interval = setInterval(() => {

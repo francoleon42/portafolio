@@ -20,14 +20,12 @@ import Theme9 from '../assets/theme/green.png';
 import Theme10 from '../assets/theme/yellow.png';
 
 
-import { FaSass, FaNodeJs, FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { TbBrandReactNative } from "react-icons/tb";
-import { SiMongodb, SiExpress, SiAstro, SiHandlebarsdotjs  } from "react-icons/si";
+import {  FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import { FaPython, FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
-import { SiGo, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiSpringsecurity, SiApollographql, SiPostman, SiJunit5, SiMaven, SiJunit, SiCypress } from "react-icons/si";
+import { SiGo, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
 
 export const links = [
   {
