@@ -4,10 +4,13 @@
     place-items: center;
     /*margin-inline: 2rem;*/
     padding: 2em;
+    margin-inline: -4rem;
 }
 
 .card__container {
     row-gap: 3.5rem;
+    gap: 20px;
+    
 }
 
 .card__article {
@@ -121,13 +124,13 @@
 
 @media screen and (min-width: 700px){
     .card__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 
 @media screen and (min-width: 1140px){
     .card__container {
-        grid-template-columns: repeat(2,385px);
+        grid-template-columns: repeat(3,385px);
     }
 }

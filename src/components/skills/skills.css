@@ -25,14 +25,14 @@
 
 @media screen and (min-width: 500px){
     .skills__list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         row-gap: 3.5rem;
     }
 }
 
 @media screen and (min-width: 900px){
     .skills__list {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         row-gap: 3.5rem;
     }
 }

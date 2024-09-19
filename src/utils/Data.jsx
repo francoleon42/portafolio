@@ -2,6 +2,7 @@ import Work1 from '../assets/img/project-1.jpeg';
 import Work2 from '../assets/img/project-2.jpeg';
 import Work3 from '../assets/img/project-3.jpeg';
 import Work4 from '../assets/img/project-4.jpeg';
+import Work5 from '../assets/img/project-5.jpeg';
 
 import Certificate1 from '../assets/img/certificate-1.jpeg';
 import Certificate2 from '../assets/img/certificate-2.jpeg';
@@ -24,8 +25,8 @@ import {  FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
-import { FaPython, FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
-import { SiGo, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
+import { FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
+import { SiTypescript, SiNestjs, SiSequelize , SiGo, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
 
 export const links = [
   {
@@ -75,11 +76,6 @@ export const projects = [
           id: 1,
           icon: <FaGithub />,
           path: 'https://gitlab.com/FrankLeon42/gestorparatareas'
-        },
-        {
-          id: 2,
-          icon: <FaExternalLinkAlt/>,
-          path: 'https://pentamusic.vercel.app/'
         }
       ],
   
@@ -130,11 +126,9 @@ export const projects = [
   {
       id: 4,
       img: Work4,
-      title: 'Matesuli',
+      title: 'Clustering Humano',
   
       skills: [
-        {type:<IoLogoJavascript />},
-        {type: <FaReact/>},
         {type: <FaJava />},
         {type: <FaProjectDiagram />}
         
@@ -146,7 +140,33 @@ export const projects = [
           path: 'https://gitlab.com/FrankLeon42/clustering-humano/-/tree/master?ref_type=heads'
         },
       ],
-  }
+  },
+  {
+    id: 5,
+    img: Work5,
+    title: 'Control de stock para heladeria',
+
+    skills: [
+      
+      {type: <FaReact/>},
+      {type: <SiTypescript />},
+      {type: <SiNestjs />},
+      {type: <SiSequelize />},
+      {type: <SiPostgresql />}
+    ],
+    links: [
+      {
+        id: 1,
+        icon: <FaGithub />,
+        path: 'https://github.com/francoleon42/heladeria-api'
+      },
+      {
+        id: 2,
+        icon: <FaExternalLinkAlt/>,
+        path: 'https://francoleon42.github.io/heladeriaFront/'
+      }
+    ],
+}
   
 ]
 
@@ -156,20 +176,18 @@ export const skills = [
     title: 'Java',
     icon: <FaJava className='skill__icon'/>,
   },
-  {
-    id: 2,
-    title: 'Python',
-    icon: <FaPython className='skill__icon'/>,
-  },
+
   {
     id: 3,
-    title: 'Go',
-    icon: <SiGo className='skill__icon'/>,
+    title: 'Java Script',
+    icon: <SiJavascript className='skill__icon'/>,
+   
   },
   {
     id: 4,
-    title: 'Java Script',
-    icon: <SiJavascript className='skill__icon'/>,
+    title: 'Go',
+    icon: <SiGo className='skill__icon'/>,
+  
   },
   {
     id: 5,
@@ -177,11 +195,6 @@ export const skills = [
     icon: <SiSpring className='skill__icon'/>,
   },
 
-  // {
-  //   id: 7,
-  //   title: 'Maven',
-  //   icon: <SiMaven className='skill__icon'/>,
-  // },
   {
     id: 8,
     title: 'Postman',
@@ -212,11 +225,7 @@ export const skills = [
     title: 'Junit',
     icon: <SiJunit5 className='skill__icon'/>,
   },
-  // {
-    //   id: 15,
-    //   title: 'Scrum',
-    //   icon: <SiScrum className='skill__icon'/>,
-    // },
+
     {
       id: 11,
       title: 'Git',
