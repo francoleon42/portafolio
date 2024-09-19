@@ -22,7 +22,6 @@ import Theme10 from '../assets/theme/yellow.png';
 
 
 import {  FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import { FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
