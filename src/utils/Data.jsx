@@ -25,7 +25,7 @@ import {  FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import { FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
-import { SiTypescript, SiNestjs, SiSequelize , SiGo, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
+import { SiTypescript, SiNestjs, SiSequelize , SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
 
 export const links = [
   {
@@ -181,12 +181,6 @@ export const skills = [
     title: 'Java Script',
     icon: <SiJavascript className='skill__icon'/>,
    
-  },
-  {
-    id: 4,
-    title: 'Go',
-    icon: <SiGo className='skill__icon'/>,
-  
   },
   {
     id: 5,
