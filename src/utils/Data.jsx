@@ -26,7 +26,10 @@ import {  FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import { FaJava, FaReact, FaGit, FaLinux , FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
-import { SiTypescript, SiNestjs, SiSequelize , SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress } from "react-icons/si";
+import { SiTypescript, SiNestjs, SiSequelize , SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress, SiHibernate, SiSecurityscorecard, SiSpringsecurity } from "react-icons/si";
+import { DiMysql } from 'react-icons/di';
+import { GiH2O } from 'react-icons/gi';
+import { TbH2 } from 'react-icons/tb';
 
 export const links = [
   {
@@ -166,6 +169,38 @@ export const projects = [
         path: 'https://francoleon42.github.io/heladeriaFront/'
       }
     ],
+
+    
+    
+},
+{
+  id: 6,
+  img: Work5,
+  title: 'GIFA',
+
+  skills: [
+    
+    {type: <FaJava/>},
+    {type: <SiSpring />},
+    {type: <DiMysql />},
+    {type: <SiHibernate />},
+    {type: <SiSpringsecurity />}
+  ],
+  links: [
+    {
+      id: 1,
+      icon: <FaGithub />,
+      path: 'https://github.com/francoleon42/heladeria-api'
+    },
+    {
+      id: 2,
+      icon: <FaExternalLinkAlt/>,
+      path: 'https://francoleon42.github.io/heladeriaFront/'
+    }
+  ],
+
+  
+  
 }
   
 ]
@@ -188,50 +223,54 @@ export const skills = [
     title: 'Spring',
     icon: <SiSpring className='skill__icon'/>,
   },
-
   {
-    id: 8,
+    id: 6,
+    title: 'Spring Security',
+    icon: <SiSpringsecurity className='skill__icon'/>,
+  },
+  {
+    id: 7,
     title: 'Postman',
     icon: <SiPostman className='skill__icon'/>,
   },
   {
-    id: 9,
+    id: 8,
     title: 'Postgres',
     icon: <SiPostgresql className='skill__icon'/>,
   },
   {
-    id: 10,
+    id: 9,
     title: 'Mysql',
     icon: <SiMysql className='skill__icon'/>,
   },
   {
-    id: 12,
+    id: 10,
     title: 'React',
     icon: <FaReact className='skill__icon'/>,
   },
   {
-    id: 13,
+    id: 11,
     title: 'Cypress',
     icon: <SiCypress className='skill__icon'/>,
   },
   {
-    id: 14,
+    id: 12,
     title: 'Junit',
     icon: <SiJunit5 className='skill__icon'/>,
   },
 
-    {
-      id: 11,
-      title: 'Git',
-      icon: <FaGit className='skill__icon'/>,
-    },
-    {
-      id: 14,
-      title: 'Linux',
-      icon: <FaLinux className='skill__icon'/>,
-    },
-    
-    
+  {
+    id: 13,
+    title: 'Git',
+    icon: <FaGit className='skill__icon'/>,
+  },
+  {
+    id: 14,
+    title: 'Linux',
+    icon: <FaLinux className='skill__icon'/>,
+  },
+  
+  
   ]
 
 export const certificates = [

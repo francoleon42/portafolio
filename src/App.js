@@ -8,7 +8,7 @@ import Certificates from "./components/certificates/Certificates";
 import Footer from './components/contact/Contact'
 import Whatsapp from "./components/messages/whatsapp";
 import Themes from "./components/themes/Themes";
-
+import CerebroDigital from "./components/CerebroDigital/cerebroDigital"
 const App = () => {
   return (
     <div className="app">
@@ -16,6 +16,7 @@ const App = () => {
       <main className="sections">
         <Home/>
         <About/>
+        <CerebroDigital/>
         <Projects/>
         <Skills/>
         <Certificates/>

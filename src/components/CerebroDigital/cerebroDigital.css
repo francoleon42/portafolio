@@ -1,0 +1,65 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 1200px;
+
+    margin: 0 auto;
+  }
+  
+  .card {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: 350px;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+  }
+  
+  .card-subtitle {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-title {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    width: 100%; 
+    text-align: center; 
+  }
+
+
+.btn-primary {
+    padding: 4px 7px;        /* Ajusta el tamaño del botón */
+    font-size: 0.875rem;      /* Cambia el tamaño de la fuente */
+    line-height: 1.2;         /* Ajusta la altura de línea */
+    border-radius: 35px;
+    margin: 10px;        /* Redondea un poco las esquinas */
+}
+
+/* Opcional: para mejorar el estilo cuando el botón se presiona */
+.btn-primary:active {
+    transform: scale(0.55);   /* Reduce ligeramente el tamaño */
+}
+  
