@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../../assets/img/profile-1.jpg';
+import profile from '../../assets/img/profile-1.webp';
 import { FaArrowDown } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import './home.css';
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section id='home' className='banner__wrapper grid'>
       <div className="home__img">
-        <img src={profile} alt="" className='home__profile'/>
+        <img src={profile} alt="" className='home__profile' loading="lazy" />
       </div>
 
       <div className="home__content">

@@ -1,7 +1,7 @@
 import React from 'react'
 import  CV from  '../../assets/pdf/cv-developer.pdf'
 import {FaDownload} from 'react-icons/fa'
-import profile2 from '../../assets/img/profile-2.jpeg'
+import profile2 from '../../assets/img/profile-2.webp'
 import './about.css'
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="about__img">
           <div className='border-img'>
-            <img src={profile2} alt="img__profile2" className='about__profile'/>
+            <img src={profile2} alt="img__profile2" className='about__profile' loading="lazy" />
           </div>
         </div>
       </div>
