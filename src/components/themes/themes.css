@@ -21,6 +21,21 @@
     border-radius: 5px 0 0 5px;
 }
 
+/* Media query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+    .style__switcher {
+        width: 100%; /* Usamos el 100% del ancho para que ocupe todo el espacio en móviles */
+        right: 0; /* Alineado al borde derecho de la pantalla */
+    }
+    
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 40px;
+        height: 40px;
+        font-size: var(--normal-font-size);
+    }
+}
+
 .style__switcher-item {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
