@@ -3,7 +3,7 @@ import segundoCerebroImg from "../../assets/img/segundoCerebro.jpeg"
 
 export default function CerebroDigital() {
   return (
-    <div className="card-container">
+    <div id="cerebroDigital" className="card-container">
       <div className="card">
         <img
           className="card-image"

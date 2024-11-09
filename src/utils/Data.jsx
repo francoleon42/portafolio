@@ -39,24 +39,30 @@ export const links = [
   },
   {
     id: 2,
+    name: 'Cerebro digital',
+    section: 'cerebroDigital'
+  },
+  {
+    id: 3,
     name: 'Proyectos',
     section: 'projects'
   },
   {
-    id: 3,
+    id: 4,
     name: 'Skills',
     section: 'skills'
   },
   {
-    id: 4,
+    id: 5,
     name: 'Certificaciones',
     section: 'certificate'
   },
   {
-    id: 5,
+    id: 6,
     name: 'Contacto',
     section: 'contact'
-  }
+  },
+  
 ]
 
 export const projects = [
