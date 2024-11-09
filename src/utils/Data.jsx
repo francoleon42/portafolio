@@ -44,6 +44,11 @@ export const links = [
   },
   {
     id: 3,
+    name: 'Experiencia',
+    section: 'experiencia'
+  },
+  {
+    id: 3,
     name: 'Proyectos',
     section: 'projects'
   },
@@ -62,6 +67,7 @@ export const links = [
     name: 'Contacto',
     section: 'contact'
   },
+  
   
 ]
 

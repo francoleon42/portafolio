@@ -1,4 +1,4 @@
-import "../CerebroDigital/cerebroDigital.css";
+import "./cerebroDigital.css";
 import segundoCerebroImg from "../../assets/img/segundoCerebro.jpeg"
 
 export default function CerebroDigital() {
