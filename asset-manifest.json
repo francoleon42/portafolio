@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.bd5f65bb.css",
-    "main.js": "/portafolio/static/js/main.9562988a.js",
+    "main.js": "/portafolio/static/js/main.a57ad7dd.js",
     "static/media/profile-1.webp": "/portafolio/static/media/profile-1.9cb8b478332623a7b617.webp",
     "static/media/project-2.jpeg": "/portafolio/static/media/project-2.6ab6b899f0492cab4f59.jpeg",
     "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
@@ -9,6 +9,7 @@
     "static/media/project-3.jpeg": "/portafolio/static/media/project-3.0383e9093c0707787fe7.jpeg",
     "static/media/certificate-3.jpeg": "/portafolio/static/media/certificate-3.e24ff5e2f5f852baa809.jpeg",
     "static/media/cv-developer.pdf": "/portafolio/static/media/cv-developer.f0aa8de6835631ef9e2f.pdf",
+    "static/media/project-6.jpeg": "/portafolio/static/media/project-6.1e26f82eeb2ba15f7a1a.jpeg",
     "static/media/certificate-2.jpeg": "/portafolio/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
     "static/media/project-5.jpeg": "/portafolio/static/media/project-5.1345ce9b8d1a04563109.jpeg",
     "static/media/certificate-1.jpeg": "/portafolio/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
@@ -17,10 +18,10 @@
     "static/media/profile-2.webp": "/portafolio/static/media/profile-2.aa89f1d08052c40d94e1.webp",
     "index.html": "/portafolio/index.html",
     "main.bd5f65bb.css.map": "/portafolio/static/css/main.bd5f65bb.css.map",
-    "main.9562988a.js.map": "/portafolio/static/js/main.9562988a.js.map"
+    "main.a57ad7dd.js.map": "/portafolio/static/js/main.a57ad7dd.js.map"
   },
   "entrypoints": [
     "static/css/main.bd5f65bb.css",
-    "static/js/main.9562988a.js"
+    "static/js/main.a57ad7dd.js"
   ]
 }
