@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id='projects' className='projects container'>
       <div className='projects__content grid'>
-        <h2>Mis proyectos</h2>
+        <h2>Proyectos personales</h2>
 
         <div className="card__container grid">
           {projects.map(({img, title, skills, links}, index) => {
