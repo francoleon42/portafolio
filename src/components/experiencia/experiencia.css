@@ -8,7 +8,6 @@
   .experience-section h2 {
     font-size: 2rem;
     text-align: center;
-    color: #333;
     margin-bottom: 2rem;
     position: relative;
   }
@@ -32,6 +31,7 @@
     width: 100%;
     max-width: 900px; /* Aumenta el ancho máximo de cada tarjeta */
     margin: 0 auto;
+    margin-bottom: 10px;
   }
   
   .job:hover {
