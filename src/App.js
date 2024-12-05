@@ -16,7 +16,7 @@ import AdocRenderer from "./components/projects/adocRenderer";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <div className="app"> {/* Clase para los estilos generales de la aplicación */}
 
         <main className="sections"> {/* Clase para estilizar las secciones */}
@@ -41,7 +41,7 @@ function App() {
               }
             />
 
-            <Route path="portafolio/render/:adocPath" element={<AdocRenderer />} />
+            <Route path="/render/:adocPath" element={<AdocRenderer />} />
           </Routes>
         </main>
       </div>
