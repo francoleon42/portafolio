@@ -1,4 +1,9 @@
-
+.icon_link_titulo {
+    font-size: 0.8rem; /* Reduce el tamaño del texto */
+    color: var(--text-color); /* Asegúrate de mantener el color consistente */
+    margin-top: 4px; /* Espacio superior para separar del ícono */
+    text-align: center; /* Centra el texto debajo del ícono */
+  }
 
 .projects__content {
     place-items: center;

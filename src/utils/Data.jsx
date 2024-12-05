@@ -20,6 +20,7 @@ import Theme7 from '../assets/theme/yellowgreen.png';
 import Theme8 from '../assets/theme/orange.png';
 import Theme9 from '../assets/theme/green.png';
 import Theme10 from '../assets/theme/yellow.png';
+import gifaAdoc from '../utils/ResumenDeProyectos/gifa.adoc'
 
 
 
@@ -28,6 +29,8 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import { FaJava, FaReact, FaGit, FaLinux, FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
 import { SiTypescript, SiNestjs, SiSequelize, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress, SiHibernate, SiSecurityscorecard, SiSpringsecurity } from "react-icons/si";
+import { MdLibraryBooks } from "react-icons/md";
+
 import { DiMysql } from 'react-icons/di';
 import { GiH2O } from 'react-icons/gi';
 import { TbH2 } from 'react-icons/tb';
@@ -78,7 +81,7 @@ export const projects = [
     img: Work6,
     title: 'GIFA - Web',
 
-    skills: [
+    skillsBackend: [
 
       { type: <FaJava /> },
       { type: <SiSpring /> },
@@ -87,6 +90,9 @@ export const projects = [
       { type: <SiSpringsecurity /> },
       { type: <SiJunit5 /> },
       { type: <SiPostman /> },
+    ],
+
+    skillsFrontend: [
       { type: <FaReact /> },
       { type: <SiJavascript /> }
     ],
@@ -94,18 +100,23 @@ export const projects = [
     links: [
       {
         id: 1,
+        titulo: "code-back",
         icon: <FaGithub />,
-        path: 'https://github.com/francoleon42/heladeria-api'
+        path: 'https://github.com/francoleon42/gifa-back'
       },
       {
         id: 2,
-        icon: <FaExternalLinkAlt />,
-        path: 'https://francoleon42.github.io/heladeriaFront/'
+        titulo: "code-front",
+        icon: <FaGithub />,
+        path: 'https://github.com/francoleon42/gifa-front'
+      },
+      {
+        id: 3,
+        titulo: "explicacion",
+        icon: <MdLibraryBooks />,
+        path: "gifa.adoc"
       }
-    ],
-
-
-
+    ]
   },
 
 
@@ -113,7 +124,7 @@ export const projects = [
     id: 2,
     img: Work2,
     title: 'I speak - Web',
-    skills: [
+    skillsBackend: [
       { type: <FaJava /> },
       { type: <SiSpring /> },
       { type: <SiPostman /> },
@@ -123,19 +134,23 @@ export const projects = [
       { type: <FaHtml5 /> },
       { type: <FaCss3Alt /> }
     ],
-    links: [
+    skillsFrontend: [
+    
+    ],
+    links:[
       {
         id: 1,
+        titulo:"codigo-FullStack",
         icon: <FaGithub />,
         path: 'https://gitlab.com/FrankLeon42/i_speak.git'
-      }
-    ],
+      },
+    ]
   },
   {
     id: 3,
     img: Work1,
     title: 'Gestor de tareas - Web',
-    skills: [
+    skillsBackend: [
       { type: <FaJava /> },
       { type: <SiSpring /> },
       { type: <SiPostgresql /> },
@@ -143,45 +158,52 @@ export const projects = [
       { type: <SiSpringsecurity /> },
       { type: <SiJunit5 /> },
       { type: <SiPostman /> },
+    ],
+    skillsFrontend: [
       { type: <FaReact /> },
       { type: <SiJavascript /> },
       { type: <SiCypress /> }
     ],
-    links: [
+    links:[
       {
         id: 1,
+        titulo:"codigo-?",
         icon: <FaGithub />,
         path: 'https://gitlab.com/FrankLeon42/gestorparatareas'
       }
-    ],
-
-
+    ]
   },
   {
     id: 4,
     img: Work4,
     title: 'Clustering Humano - Desktop',
 
-    skills: [
+    skillsBackend: [
       { type: <FaJava /> },
       { type: <FaProjectDiagram /> }
 
     ],
+    skillsFrontend: [
+    ],
     links: [
       {
         id: 1,
+        titulo:"codigo-fullStack",
         icon: <FaGithub />,
         path: 'https://gitlab.com/FrankLeon42/clustering-humano/-/tree/master?ref_type=heads'
       },
-    ],
+    ]
   },
   {
     id: 5,
     img: Work5,
     title: 'Control de stock para heladeria',
 
-    skills: [
 
+    skillsBackend: [
+
+    ],
+    skillsFrontend: [
       { type: <FaReact /> },
       { type: <SiTypescript /> },
       { type: <SiNestjs /> },
@@ -192,10 +214,12 @@ export const projects = [
       {
         id: 1,
         icon: <FaGithub />,
+        titulo:"code-backend",
         path: 'https://github.com/francoleon42/heladeria-api'
       },
       {
         id: 2,
+        titulo:"code-front",
         icon: <FaExternalLinkAlt />,
         path: 'https://francoleon42.github.io/heladeriaFront/'
       }
@@ -208,7 +232,9 @@ export const projects = [
     id: 6,
     img: Work3,
     title: 'AnimeApp',
-    skills: [
+    skillsBackend: [
+    ],
+    skillsFrontend: [
       { type: <FaReact /> },
       { type: <SiJavascript /> },
       { type: <SiCypress /> }
@@ -216,11 +242,13 @@ export const projects = [
     links: [
       {
         id: 1,
+        titulo:"code-fullStack",
         icon: <FaGithub />,
         path: 'https://gitlab.com/FrankLeon42/animeapp'
       },
       {
         id: 2,
+        titulo:"deploy",
         icon: <FaExternalLinkAlt />,
         path: 'https://frankleon42.gitlab.io/animeapp/'
       }
