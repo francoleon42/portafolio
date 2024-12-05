@@ -13,32 +13,6 @@ import CerebroDigital from "./components/cerebroDigital/cerebroDigital"
 import Experiencia from "./components/experiencia/experiencia";
 import AdocRenderer from "./components/projects/adocRenderer";
 
-// const App = () => {
-//   return (
-//     <Router basename="/">  {/* Aquí se envuelve toda la aplicación con el Router */}
-//       <div className="app">
-//         <NavBar />
-//         <main className="sections">
-//           <Home />
-//           <About />
-//           <CerebroDigital />
-//           <Experiencia />
-//           <Projects />
-//           <Skills />
-//           <Certificates />
-//           <Footer />
-//           <Whatsapp />
-//           <Themes />
-//         </main>
-
-//         {/* Rutas definidas aquí */}
-//         <Routes>
-//           <Route path="render/:adocPath" element={<AdocRenderer />} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// };
 
 
 function App() {
