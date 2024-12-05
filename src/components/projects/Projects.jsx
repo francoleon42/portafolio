@@ -41,7 +41,7 @@ const Projects = () => {
                           {/* Verifica si el path termina en .adoc antes de renderizar el enlace */}
                           {path.endsWith('.adoc') ? (
                          
-                            <a className="icon__link" href={`/render/${path}`} >{icon}</a>
+                            <a className="icon__link" href={`portafolio/render/${path}`} >{icon}</a>
                           ) : (
                             <a className='icon__link' href={path}>{icon}</a>
                              // Si no es un archivo .adoc, solo muestra el título sin enlace

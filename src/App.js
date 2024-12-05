@@ -14,10 +14,9 @@ import Experiencia from "./components/experiencia/experiencia";
 import AdocRenderer from "./components/projects/adocRenderer";
 
 
-
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/portafolio">
       <div className="app"> {/* Clase para los estilos generales de la aplicación */}
 
         <main className="sections"> {/* Clase para estilizar las secciones */}
@@ -43,7 +42,7 @@ function App() {
             />
 
             {/* Ruta dinámica */}
-            <Route path="render/:adocPath" element={<AdocRenderer />} />
+            <Route path="/render/:adocPath" element={<AdocRenderer />} />
           </Routes>
         </main>
       </div>
