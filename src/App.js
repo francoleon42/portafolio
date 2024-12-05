@@ -16,7 +16,7 @@ import AdocRenderer from "./components/projects/adocRenderer";
 
 function App() {
   return (
-    <Router basename="/portafolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app"> {/* Clase para los estilos generales de la aplicación */}
 
         <main className="sections"> {/* Clase para estilizar las secciones */}
