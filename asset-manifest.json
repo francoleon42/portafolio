@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.277319ae.css",
-    "main.js": "/portafolio/static/js/main.d7086fb1.js",
-    "static/media/profile-1.webp": "/portafolio/static/media/profile-1.9cb8b478332623a7b617.webp",
-    "static/media/project-2.jpeg": "/portafolio/static/media/project-2.6ab6b899f0492cab4f59.jpeg",
-    "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
-    "static/media/project-4.jpeg": "/portafolio/static/media/project-4.52674effacdf81699730.jpeg",
-    "static/media/project-3.jpeg": "/portafolio/static/media/project-3.0383e9093c0707787fe7.jpeg",
-    "static/media/certificate-3.jpeg": "/portafolio/static/media/certificate-3.e24ff5e2f5f852baa809.jpeg",
-    "static/media/cv-developer.pdf": "/portafolio/static/media/cv-developer.f0aa8de6835631ef9e2f.pdf",
-    "static/media/project-6.jpeg": "/portafolio/static/media/project-6.1e26f82eeb2ba15f7a1a.jpeg",
-    "static/media/certificate-2.jpeg": "/portafolio/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
-    "static/media/project-5.jpeg": "/portafolio/static/media/project-5.1345ce9b8d1a04563109.jpeg",
-    "static/media/certificate-1.jpeg": "/portafolio/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
-    "static/media/segundoCerebro.jpeg": "/portafolio/static/media/segundoCerebro.b0215665f58d3a5d02f8.jpeg",
-    "static/media/project-1.jpeg": "/portafolio/static/media/project-1.9422c912febbc370f543.jpeg",
-    "static/media/profile-2.webp": "/portafolio/static/media/profile-2.aa89f1d08052c40d94e1.webp",
-    "static/media/gifa.adoc": "/portafolio/static/media/gifa.cf174d2c73207129f849.adoc",
-    "index.html": "/portafolio/index.html",
-    "main.277319ae.css.map": "/portafolio/static/css/main.277319ae.css.map",
-    "main.d7086fb1.js.map": "/portafolio/static/js/main.d7086fb1.js.map"
+    "main.css": "/static/css/main.277319ae.css",
+    "main.js": "/static/js/main.70595aab.js",
+    "static/media/profile-1.webp": "/static/media/profile-1.9cb8b478332623a7b617.webp",
+    "static/media/project-2.jpeg": "/static/media/project-2.6ab6b899f0492cab4f59.jpeg",
+    "static/media/certificate-4.jpeg": "/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
+    "static/media/project-4.jpeg": "/static/media/project-4.52674effacdf81699730.jpeg",
+    "static/media/project-3.jpeg": "/static/media/project-3.0383e9093c0707787fe7.jpeg",
+    "static/media/certificate-3.jpeg": "/static/media/certificate-3.e24ff5e2f5f852baa809.jpeg",
+    "static/media/cv-developer.pdf": "/static/media/cv-developer.f0aa8de6835631ef9e2f.pdf",
+    "static/media/project-6.jpeg": "/static/media/project-6.1e26f82eeb2ba15f7a1a.jpeg",
+    "static/media/certificate-2.jpeg": "/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
+    "static/media/project-5.jpeg": "/static/media/project-5.1345ce9b8d1a04563109.jpeg",
+    "static/media/certificate-1.jpeg": "/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
+    "static/media/segundoCerebro.jpeg": "/static/media/segundoCerebro.b0215665f58d3a5d02f8.jpeg",
+    "static/media/project-1.jpeg": "/static/media/project-1.9422c912febbc370f543.jpeg",
+    "static/media/profile-2.webp": "/static/media/profile-2.aa89f1d08052c40d94e1.webp",
+    "static/media/gifa.adoc": "/static/media/gifa.cf174d2c73207129f849.adoc",
+    "index.html": "/index.html",
+    "main.277319ae.css.map": "/static/css/main.277319ae.css.map",
+    "main.70595aab.js.map": "/static/js/main.70595aab.js.map"
   },
   "entrypoints": [
     "static/css/main.277319ae.css",
-    "static/js/main.d7086fb1.js"
+    "static/js/main.70595aab.js"
   ]
 }
