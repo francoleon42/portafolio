@@ -16,7 +16,8 @@ const AdocRenderer = () => {
   useEffect(() => {
     const fetchAdoc = async () => {
       try {
-        const response = await fetch(`/portafolio/adocs/${adocPath}`); // Ruta al archivo en `public/`
+        const baseUrl = process.env.PUBLIC_URL || ''; // `PUBLIC_URL` usa el valor de `homepage`
+        const response = await fetch(`${baseUrl}/adocs/${adocPath}`);
         if (!response.ok) {
           throw new Error('No se pudo cargar el archivo AsciiDoc.');
         }
