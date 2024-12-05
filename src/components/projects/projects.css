@@ -1,9 +1,14 @@
 .icon_link_titulo {
-    font-size: 0.8rem; /* Reduce el tamaño del texto */
-    color: var(--text-color); /* Asegúrate de mantener el color consistente */
-    margin-top: 4px; /* Espacio superior para separar del ícono */
-    text-align: center; /* Centra el texto debajo del ícono */
-  }
+    font-size: 0.8rem;
+    /* Reduce el tamaño del texto */
+    color: var(--text-color);
+    /* Asegúrate de mantener el color consistente */
+    /* Espacio superior para separar del ícono */
+    /* text-align: center; */
+   
+
+    /* Centra el texto debajo del ícono */
+}
 
 .projects__content {
     place-items: center;
@@ -15,12 +20,14 @@
 .card__container {
     row-gap: 3.5rem;
     gap: 20px;
-    
+  
+
 }
 
 .card__article {
     position: relative;
     overflow: hidden;
+    margin-bottom: 4%;
 }
 
 .card__img {
@@ -49,19 +56,29 @@
     font-weight: var(--weight-700);
     color: var(--title-color);
 }
- 
+.card_titulo_tipo_skill {
+    margin-right: -20%;
+    font-size: 100%;
+}
+
 
 .card__icons {
     display: flex;
-    flex-wrap: wrap; /* Permite que los íconos se envuelvan en múltiples filas */
-    justify-content: center; /* Centra los íconos horizontalmente */
-    gap: 30px; /* Espacio entre los íconos */
-    font-size: 20px; /* Tamaño de fuente para los íconos */
-    margin-top: 10px; /* Espacio superior */
+    flex-wrap: wrap;
+    /* Permite que los íconos se envuelvan en múltiples filas */
+    justify-content: center;
+    /* Centra los íconos horizontalmente */
+    gap: 30px;
+    /* Espacio entre los íconos */
+    font-size: 20px;
+    /* Tamaño de fuente para los íconos */
+    margin-top: 10px;
+    /* Espacio superior */
 }
 
-.card__icons > * {
-    flex: 0 1 calc(16.66% - 30px); /* Ajusta el ancho de los íconos para que quepan 6 por fila */
+.card__icons>* {
+    flex: 0 1 calc(16.66% - 30px);
+    /* Ajusta el ancho de los íconos para que quepan 6 por fila */
 }
 
 .skills {
@@ -72,7 +89,7 @@
     color: var(--text-color);
 }
 
-.card__article:hover .card__data{
+.card__article:hover .card__data {
     animation: show-data 1s forwards;
     opacity: 1;
     transition: opacity .3s;
@@ -86,7 +103,7 @@
     animation: show-overflow 2s forwards;
 }
 
-.card__article:not(:hover) .card__data{
+.card__article:not(:hover) .card__data {
     animation: remove-data 1s forwards;
 }
 
@@ -95,6 +112,7 @@
     50% {
         transform: translateY(-10rem);
     }
+
     100% {
         transform: translateY(-7rem);
     }
@@ -110,9 +128,11 @@
     0% {
         transform: translateY(-7rem);
     }
+
     50% {
         transform: translateY(-10rem);
     }
+
     100% {
         transform: translateY(.5rem);
     }
@@ -123,20 +143,21 @@
         overflow: initial;
         pointer-events: none;
     }
+
     50% {
         overflow: hidden;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
     .card__container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 
-@media screen and (min-width: 1140px){
+@media screen and (min-width: 1140px) {
     .card__container {
-        grid-template-columns: repeat(3,385px);
+        grid-template-columns: repeat(3, 385px);
     }
 }

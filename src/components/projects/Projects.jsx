@@ -19,7 +19,8 @@ const Projects = () => {
 
                   {skillsBackend.length > 0 && (
                     <div className='card__icons skills'>
-                      <h4>Backend</h4>
+                      <h4 className='card_titulo_tipo_skill'>Backend:</h4>
+                      <span></span>
                       {skillsBackend.map((element, index) => (
                         <div key={index}>{element.type}</div>
                       ))}
@@ -28,7 +29,8 @@ const Projects = () => {
 
                   {skillsFrontend.length > 0 && (
                     <div className='card__icons skills'>
-                      <h4>Frontend</h4>
+                      <h4 className='card_titulo_tipo_skill'>Frontend:</h4>
+                      <span></span>
                       {skillsFrontend.map((element, index) => (
                         <div key={index}>{element.type}</div>
                       ))}

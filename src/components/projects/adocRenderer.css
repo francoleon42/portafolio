@@ -22,7 +22,7 @@
   
   /* Estilo para los párrafos */
   .adoc-container p {
-    margin-bottom: 15px;
+    margin-bottom: 11px;
     color: #f5f5f5;
     font-size: 1rem;
     word-wrap: break-word; /* Evita que las palabras largas se desborden */
@@ -93,7 +93,7 @@
     background-color: #333; /* Fondo oscuro para el header */
     padding: 10px 20px; /* Espaciado interno */
     text-align: right; /* Alinea el botón a la derecha */
-    position: sticky; /* Mantén el header fijo en la parte superior */
+    position: fixed; /* Mantén el header fijo en la parte superior */
     top: 0;
     width: 100%; /* Ocupa todo el ancho de la pantalla */
     z-index: 10; /* Asegúrate de que el header esté por encima de otros elementos */

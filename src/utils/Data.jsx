@@ -373,7 +373,7 @@ export const networks = [
   },
   {
     id: 5,
-    path: 'https://gitlab.com/FrankLeon42',
+    path: 'https://github.com/francoleon42',
     title: 'Visitar el perfil de Franco Costantini en GitLab',
     icon: <FaGithub />,
   },
