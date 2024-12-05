@@ -17,6 +17,7 @@ const AdocRenderer = () => {
     const fetchAdoc = async () => {
       try {
         const baseUrl = process.env.PUBLIC_URL || ''; // `PUBLIC_URL` usa el valor de `homepage`
+        
         const response = await fetch(`${baseUrl}/${adocPath}`);
         if (!response.ok) {
           throw new Error('No se pudo cargar el archivo AsciiDoc.');

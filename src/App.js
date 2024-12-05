@@ -41,7 +41,6 @@ function App() {
               }
             />
 
-            {/* Ruta dinámica */}
             <Route path="/render/:adocPath" element={<AdocRenderer />} />
           </Routes>
         </main>
