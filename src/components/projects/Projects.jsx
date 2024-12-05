@@ -1,6 +1,7 @@
 import React from 'react'
 import { projects } from '../../utils/Data'
 import './projects.css'
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
