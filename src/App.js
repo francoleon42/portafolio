@@ -41,7 +41,7 @@ function App() {
               }
             />
 
-            <Route path="portafolio/render/:adocPath" element={<AdocRenderer />} />
+            <Route path="/portafolio/render/:adocPath" element={<AdocRenderer />} />
           </Routes>
         </main>
       </div>
