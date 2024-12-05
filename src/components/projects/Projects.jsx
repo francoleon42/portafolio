@@ -3,7 +3,6 @@ import { projects } from '../../utils/Data'
 import './projects.css'
 
 const Projects = () => {
-  const baseUrl = process.env.PUBLIC_URL || ''; 
   return (
     <section id='projects' className='projects container'>
       <div className='projects__content grid'>
@@ -41,8 +40,7 @@ const Projects = () => {
                         <div key={index}>
                           {/* Verifica si el path termina en .adoc antes de renderizar el enlace */}
                           {path.endsWith('.adoc') ? (
-                            
-                            <a className="icon__link" href={`${baseUrl}/render/${path}`} >{icon}</a>
+                            <a className="icon__link" href={`portafolio/render/${path}`} >{icon}</a>
                           ) : (
                             <a className='icon__link' href={path}>{icon}</a>
                              // Si no es un archivo .adoc, solo muestra el título sin enlace
