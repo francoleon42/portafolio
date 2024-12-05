@@ -1,0 +1,50 @@
+= Gestión Integral de Flota de Automotores (GIFA)
+
+== Descripción del Proyecto
+El proyecto GIFA es un sistema de gestión diseñado para optimizar la administración de flotas automotoras. Su implementación busca mejorar la eficiencia operativa y estratégica de la Línea 40 de transporte público mediante herramientas digitales accesibles y centralizadas. 
+
+=== Objetivos Principales
+- Gestionar y supervisar controles de mantenimiento, inventario y reparaciones.
+- Proveer un sistema accesible tanto desde la web como dispositivos móviles.
+- Ofrecer herramientas analíticas avanzadas para tomar decisiones estratégicas basadas en datos.
+- Garantizar la disponibilidad de vehículos y optimizar el costo de operaciones como consumo de combustible.
+
+=== Funcionalidades Destacadas
+- **Gestión de Controles de Flota:** Registro de vehículos, asignación de conductores, seguimiento en tiempo real mediante geoposicionamiento, y mantenimiento preventivo.
+- **Sistema Mobile-First:** Optimización de la interfaz para usuarios móviles y web.
+- **Analítica Avanzada:** Generación de reportes de consumo de combustible, estado de flota y análisis de stock.
+- **Gestión de Stock y Proveedores:** Seguimiento de inventarios en tiempo real, generación automática de pedidos y optimización de costos.
+- **Autenticación y Roles:** Control de acceso con permisos según roles de usuario.
+
+== Tecnologías Utilizadas
+El proyecto combina tecnologías modernas para garantizar una experiencia robusta, escalable y segura.
+
+image:[Logo de la página web]
+
+
+=== Frontend
+- **Framework:** React.js
+- **Diseño Responsive:** CSS, Material UI.
+
+=== Backend
+- **Lenguaje:** Node.js con Express.js.
+- **Seguridad:** Implementación de JWT para autenticación.
+- **Base de Datos:** MongoDB, con datos estructurados para rápida consulta y análisis.
+
+=== Infraestructura
+- **Proveedor de Nube:** AWS para despliegue y orquestación.
+- **Contenedores:** Docker para crear y desplegar microservicios.
+- **Automatización:** GitHub Actions para integración y despliegue continuo (CI/CD).
+
+=== Herramientas Adicionales
+- **Gestión de Proyecto:** Jira y Google Sheets.
+- **Colaboración:** Discord y Google Meet para comunicación del equipo.
+- **Analítica:** Metabase para visualización de datos.
+
+== Equipo de Trabajo
+El proyecto fue desarrollado por un equipo interdisciplinario de estudiantes bajo la supervisión del profesor y Product Owner, Leandro Dikenstein. Se organizó en sprints ágiles para asegurar entregas incrementales y funcionales.
+
+== Resultados Esperados
+ 1. Optimización de recursos operativos y reducción de costos en la gestión de flotas.
+ 2. Mejora en la experiencia del cliente gracias a una gestión más eficiente.
+ 3. Una herramienta escalable y adaptable para otras líneas de transporte.
