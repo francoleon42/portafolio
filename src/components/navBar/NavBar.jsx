@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-scroll'
-import { links } from '../../utils/Data'
+import { secciones } from '../../utils/Data'
 import './navBar.css'
 
 const NavBar = () => {
@@ -35,7 +35,7 @@ const NavBar = () => {
                 className={`menu__items ${menuOpen && 'menu__open'}`}
                 
             >
-                {links.map(({name, section}, index) => {
+                {secciones.map(({name, section}, index) => {
                     return(
                         <li key={index}>
                             <Link

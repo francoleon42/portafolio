@@ -1,9 +1,4 @@
-import Work1 from '../assets/img/project-1.jpeg';
-import Work2 from '../assets/img/project-2.jpeg';
-import Work3 from '../assets/img/project-3.jpeg';
-import Work4 from '../assets/img/project-4.jpeg';
-import Work5 from '../assets/img/project-5.jpeg';
-import Work6 from '../assets/img/project-6.jpeg';
+
 
 import Certificate1 from '../assets/img/certificate-1.jpeg';
 import Certificate2 from '../assets/img/certificate-2.jpeg';
@@ -20,22 +15,18 @@ import Theme7 from '../assets/theme/yellowgreen.png';
 import Theme8 from '../assets/theme/orange.png';
 import Theme9 from '../assets/theme/green.png';
 import Theme10 from '../assets/theme/yellow.png';
-import gifaAdoc from '../utils/ResumenDeProyectos/gifa.adoc'
-
-
 
 import { FaExternalLinkAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
-import { FaJava, FaReact, FaGit, FaLinux, FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
-import { SiTypescript, SiNestjs, SiSequelize, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress, SiHibernate, SiSecurityscorecard, SiSpringsecurity } from "react-icons/si";
-import { MdLibraryBooks } from "react-icons/md";
 
-import { DiMysql } from 'react-icons/di';
-import { GiH2O } from 'react-icons/gi';
-import { TbH2 } from 'react-icons/tb';
+import DataProjects from './DataProjects';
+import DataSkills from './DataSkills';
 
-export const links = [
+export const projects = DataProjects;
+export const skills = DataSkills;
+
+export const secciones = [
   {
     id: 1,
     name: 'Sobre mi',
@@ -75,255 +66,8 @@ export const links = [
 
 ]
 
-export const projects = [
-  {
-    id: 1,
-    img: Work6,
-    title: 'GIFA - Web',
 
-    skillsBackend: [
-
-      { type: <FaJava /> },
-      { type: <SiSpring /> },
-      { type: <DiMysql /> },
-      { type: <SiHibernate /> },
-      { type: <SiSpringsecurity /> },
-      { type: <SiJunit5 /> },
-      { type: <SiPostman /> },
-    ],
-
-    skillsFrontend: [
-      { type: <FaReact /> },
-      { type: <SiJavascript /> }
-    ],
-
-    links: [
-      {
-        id: 1,
-        titulo: "code-back",
-        icon: <FaGithub />,
-        path: 'https://github.com/francoleon42/gifa-back'
-      },
-      {
-        id: 2,
-        titulo: "code-front",
-        icon: <FaGithub />,
-        path: 'https://github.com/francoleon42/gifa-front'
-      },
-      {
-        id: 3,
-        titulo: "explicacion",
-        icon: <MdLibraryBooks />,
-        path: "gifa.adoc"
-      }
-    ]
-  },
-
-
-  {
-    id: 2,
-    img: Work2,
-    title: 'I speak - Web',
-    skillsBackend: [
-      { type: <FaJava /> },
-      { type: <SiSpring /> },
-      { type: <SiPostman /> },
-      { type: <SiPostgresql /> },
-      { type: <SiHibernate /> },
-      { type: <SiSpringsecurity /> },
-      { type: <FaHtml5 /> },
-      { type: <FaCss3Alt /> }
-    ],
-    skillsFrontend: [
-    
-    ],
-    links:[
-      {
-        id: 1,
-        titulo:"codigo-FullStack",
-        icon: <FaGithub />,
-        path: 'https://gitlab.com/FrankLeon42/i_speak.git'
-      },
-    ]
-  },
-  {
-    id: 3,
-    img: Work1,
-    title: 'Gestor de tareas - Web',
-    skillsBackend: [
-      { type: <FaJava /> },
-      { type: <SiSpring /> },
-      { type: <SiPostgresql /> },
-      { type: <SiHibernate /> },
-      { type: <SiSpringsecurity /> },
-      { type: <SiJunit5 /> },
-      { type: <SiPostman /> },
-    ],
-    skillsFrontend: [
-      { type: <FaReact /> },
-      { type: <SiJavascript /> },
-      { type: <SiCypress /> }
-    ],
-    links:[
-      {
-        id: 1,
-        titulo:"codigo-?",
-        icon: <FaGithub />,
-        path: 'https://gitlab.com/FrankLeon42/gestorparatareas'
-      }
-    ]
-  },
-  {
-    id: 4,
-    img: Work4,
-    title: 'Clustering Humano - Desktop',
-
-    skillsBackend: [
-      { type: <FaJava /> },
-      { type: <FaProjectDiagram /> }
-
-    ],
-    skillsFrontend: [
-    ],
-    links: [
-      {
-        id: 1,
-        titulo:"codigo-fullStack",
-        icon: <FaGithub />,
-        path: 'https://gitlab.com/FrankLeon42/clustering-humano/-/tree/master?ref_type=heads'
-      },
-    ]
-  },
-  {
-    id: 5,
-    img: Work5,
-    title: 'Control de stock para heladeria',
-
-
-    skillsBackend: [
-
-    ],
-    skillsFrontend: [
-      { type: <FaReact /> },
-      { type: <SiTypescript /> },
-      { type: <SiNestjs /> },
-      { type: <SiSequelize /> },
-      { type: <SiPostgresql /> }
-    ],
-    links: [
-      {
-        id: 1,
-        icon: <FaGithub />,
-        titulo:"code-backend",
-        path: 'https://github.com/francoleon42/heladeria-api'
-      },
-      {
-        id: 2,
-        titulo:"code-front",
-        icon: <FaExternalLinkAlt />,
-        path: 'https://francoleon42.github.io/heladeriaFront/'
-      }
-    ],
-
-
-
-  },
-  {
-    id: 6,
-    img: Work3,
-    title: 'AnimeApp',
-    skillsBackend: [
-    ],
-    skillsFrontend: [
-      { type: <FaReact /> },
-      { type: <SiJavascript /> },
-      { type: <SiCypress /> }
-    ],
-    links: [
-      {
-        id: 1,
-        titulo:"code-fullStack",
-        icon: <FaGithub />,
-        path: 'https://gitlab.com/FrankLeon42/animeapp'
-      },
-      {
-        id: 2,
-        titulo:"deploy",
-        icon: <FaExternalLinkAlt />,
-        path: 'https://frankleon42.gitlab.io/animeapp/'
-      }
-    ],
-  },
-
-]
-
-export const skills = [
-  {
-    id: 1,
-    title: 'Java',
-    icon: <FaJava className='skill__icon' />,
-  },
-
-  {
-    id: 3,
-    title: 'Java Script',
-    icon: <SiJavascript className='skill__icon' />,
-
-  },
-  {
-    id: 5,
-    title: 'Spring',
-    icon: <SiSpring className='skill__icon' />,
-  },
-  {
-    id: 6,
-    title: 'Spring Security',
-    icon: <SiSpringsecurity className='skill__icon' />,
-  },
-  {
-    id: 7,
-    title: 'Postman',
-    icon: <SiPostman className='skill__icon' />,
-  },
-  {
-    id: 8,
-    title: 'Postgres',
-    icon: <SiPostgresql className='skill__icon' />,
-  },
-  {
-    id: 9,
-    title: 'Mysql',
-    icon: <SiMysql className='skill__icon' />,
-  },
-  {
-    id: 10,
-    title: 'React',
-    icon: <FaReact className='skill__icon' />,
-  },
-  {
-    id: 11,
-    title: 'Cypress',
-    icon: <SiCypress className='skill__icon' />,
-  },
-  {
-    id: 12,
-    title: 'Junit',
-    icon: <SiJunit5 className='skill__icon' />,
-  },
-
-  {
-    id: 13,
-    title: 'Git',
-    icon: <FaGit className='skill__icon' />,
-  },
-  {
-    id: 14,
-    title: 'Linux',
-    icon: <FaLinux className='skill__icon' />,
-  },
-
-
-]
+  
 
 export const certificates = [
   {

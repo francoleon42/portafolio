@@ -22,7 +22,10 @@ const Projects = () => {
                       <h4 className='card_titulo_tipo_skill'>Backend:</h4>
                       <span></span>
                       {skillsBackend.map((element, index) => (
-                        <div key={index}>{element.type}</div>
+                          <div key={index} className="skill-item">
+                          <div className="skill-type">{element.type}</div>
+                          <small className="skill-text">{element.name}</small>
+                        </div>
                       ))}
                     </div>
                   )}
@@ -32,7 +35,10 @@ const Projects = () => {
                       <h4 className='card_titulo_tipo_skill'>Frontend:</h4>
                       <span></span>
                       {skillsFrontend.map((element, index) => (
-                        <div key={index}>{element.type}</div>
+                         <div key={index} className="skill-item">
+                         <div className="skill-type">{element.type}</div>
+                         <small className="skill-text">{element.name}</small>
+                       </div>
                       ))}
                     </div>
                   )}

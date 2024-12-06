@@ -36,7 +36,7 @@
 }
 
 .card__data {
-    width: 90%;
+    width: 97%;
 
     background-color: var(--body-color);
     padding: 1rem;
@@ -56,10 +56,30 @@
     font-weight: var(--weight-700);
     color: var(--title-color);
 }
+
+/*Habilidades : */
 .card_titulo_tipo_skill {
     margin-right: -20%;
-    font-size: 100%;
+    margin-left: -2%;
+    font-size: 85%;
+  
 }
+.skill-type {
+    font-size: 1.4rem; /* Cambia el tamaño según tus necesidades */
+    font-weight: bold;
+}
+.skill-text {
+    font-size: 0.7rem; /* Texto muy pequeño */
+    line-height: -1;
+    margin-top: -10%;
+    margin-bottom: -20%; /* Elimina márgenes adicionales */
+    color: gray; /* Opcional: un color más sutil */
+  }
+  .skill-item {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: start; /* Alinea al inicio del contenedor */
+  }
 
 
 .card__icons {
