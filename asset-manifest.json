@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.21fdca17.css",
-    "main.js": "/portafolio/static/js/main.bbbd7f8a.js",
+    "main.css": "/portafolio/static/css/main.48971d35.css",
+    "main.js": "/portafolio/static/js/main.81ae1582.js",
     "static/media/profile-1.webp": "/portafolio/static/media/profile-1.9cb8b478332623a7b617.webp",
     "static/media/imgIspeak.jpeg": "/portafolio/static/media/imgIspeak.6ab6b899f0492cab4f59.jpeg",
     "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
@@ -14,14 +14,15 @@
     "static/media/imgGestorHeladeria.jpeg": "/portafolio/static/media/imgGestorHeladeria.1345ce9b8d1a04563109.jpeg",
     "static/media/certificate-1.jpeg": "/portafolio/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
     "static/media/segundoCerebro.jpeg": "/portafolio/static/media/segundoCerebro.b0215665f58d3a5d02f8.jpeg",
+    "static/media/gifaDER.jpg": "/portafolio/static/media/gifaDER.8137a7ab529bd1d02d2f.jpg",
     "static/media/imgGestorDeTareas.jpeg": "/portafolio/static/media/imgGestorDeTareas.9422c912febbc370f543.jpeg",
     "static/media/profile-2.webp": "/portafolio/static/media/profile-2.aa89f1d08052c40d94e1.webp",
     "index.html": "/portafolio/index.html",
-    "main.21fdca17.css.map": "/portafolio/static/css/main.21fdca17.css.map",
-    "main.bbbd7f8a.js.map": "/portafolio/static/js/main.bbbd7f8a.js.map"
+    "main.48971d35.css.map": "/portafolio/static/css/main.48971d35.css.map",
+    "main.81ae1582.js.map": "/portafolio/static/js/main.81ae1582.js.map"
   },
   "entrypoints": [
-    "static/css/main.21fdca17.css",
-    "static/js/main.bbbd7f8a.js"
+    "static/css/main.48971d35.css",
+    "static/js/main.81ae1582.js"
   ]
 }

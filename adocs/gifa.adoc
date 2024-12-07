@@ -1,0 +1,114 @@
+= Gestión Integral de Flota de Automotores (GIFA)
+
+
+image::/portafolio/adocs/imgGifalogo.jpg[width=200, height=200]
+
+== Gestión Integral de Flota de Automotores (GIFA) 
+Es un sistema desarrollado para optimizar la administración de flotas de transporte, con un enfoque especial en la mejora de la operación de colectivos. Su objetivo principal es incrementar la eficiencia operativa mediante el uso de soluciones tecnológicas innovadoras.
+
+Para lograr esto, se ha implementado un conjunto de funcionalidades diseñadas para elevar la calidad del servicio, automatizando y centralizando los procesos clave, lo que facilita una gestión más ágil y eficaz.
+
+==== El sistema permite:
+
+* *_Gestión de mantenimiento vehicular:_* Monitoreo y registro de las condiciones y reparaciones de los vehículos.
+* *_Control de inventarios y stock:_* Gestión de las partes y repuestos de los vehículos 
+* *_Análisis de métricas de desempeño:_* Evaluación continua del rendimiento de la flota para mejorar su operatividad.
+* *_Integración de dispositivos GPS:_* Monitoreo de los vehículos, con visualización de su ubicación y recorrido.
+* *_Supervisión de costos y consumo de combustible:_* Control de los gastos y análisis del consumo de combustible para optimizar costos operativos.
+
+Diseñado tanto para un entorno *web como mobile-first*, GIFA es accesible para distintos perfiles de usuario, desde gerentes hasta operadores de flota.
+
+== Tecnologías utilizadas
+
+==== Frontend:
+
+* *React.js* con diseño responsive.
+
+==== Backend:
+
+* *Framework:* Spring Boot (Java).
+* *ORM:* Hibernate (JPA).
+* *Seguridad:* Spring Security con JWT para autenticación y autorización.
+* *Testing:* JUnit y Mockito para pruebas unitarias y de integración.
+
+==== Base de Datos:
+
+* *MySQL*.
+
+==== Integracion con servicios externos:
+
+* *Traccar* para geoposicionamiento y cálculo de kilometraje.
+* *Metabase* configurado como herramienta de visualización para métricas operativas y estratégicas.
+* *Scraping* automatizado para extraer precios de combustibles de portales externos, usado en la gestión de costos.
+
+==== Herramientas de CI/CD:
+
+* *GitHub Actions* para integración y despliegue continuo.
+* *Docker* para la creación y despliegue de contenedores.
+* *AWS* (Elastic Beanstalk y EC2) para la implementación en la nube
+
+== Requerimientos y características principales
+
+=== Funcionales
+* *Gestión de Flota:* Registro, control de reparaciones, y generación automática de mantenimientos preventivos.
+* *Gestión de Inventario de partes:* Pedidos automáticos de ítems al superar umbrales de stock.
+* *Gestión de Costos:* Relación entre kilómetros recorridos y consumo de combustible.
+* *Módulo de Analítica:* Métricas sobre uso de flota, stock y costos operativos mediante integración con Metabase.
+* *Autenticación de Usuarios:* Roles diferenciados (administrador, operador, chofer, supervisor, gerente).
+* *Geoposicionamiento:* Seguimiento del recorrido historico de los vehículos mediante integración con Traccar.
+
+=== No funcionales
+* *Seguridad:* Encriptación de base de datos y uso de HTTPS.
+* *Performance:* Optimización para tiempo de respuesta bajo.
+* *Portabilidad:* Compatible con dispositivos móviles y de escritorio.
+* *Escalabilidad:* Arquitectura basada en microservicios.
+
+== Explicación de la solución
+=== Infraestructura 
+
+La infraestructura de GIFA está optimizada para la escalabilidad, eficiencia y seguridad. A continuación se desglosan sus componentes clave:
+
+*1. Despliegue en la Nube (AWS)*:
+
+    * _AWS EC2:_ Ejecuta el backend en instancias de cómputo, con contenedores Docker para una implementación consistente.
+    * _Amazon RDS:_ Base de datos MySQL gestionada en la nube, con alta disponibilidad y copias de seguridad automáticas.
+
+*2.Backend:*
+
+    * _Spring Boot:_ Framework utilizado para la creación de la API RESTful, que gestiona todas las solicitudes del sistema.
+    * _Docker:_ Contenerización de la aplicación para un despliegue eficiente y portátil.
+
+*3.Integraciones Externas:*
+
+    * _Traccar:_ Integración para obtener la ubicación y kilometraje de los vehículos en tiempo real.
+    * _Scraper de Precios de Combustibles:_ Obtención automatizada de los precios de combustible desde portales externos para el cálculo de costos.
+    * _Metabase:_ Plataforma para la visualización de métricas analíticas, como el estado de la flota, el consumo de combustible y el inventario.
+
+*4.Automatización CI/CD:*
+
+    * _GitHub Actions:_ Automatización de integración y despliegue continuo, facilitando actualizaciones rápidas y seguras del sistema.
+ 
+
+image::/portafolio/adocs/imgGifaInfra.jpg[][width=600, height=600]
+
+=== Diagrama Entidad-Relación (DER)
+Se creó un diseño sólido de base de datos relacional que actúa como el núcleo de la solución. Este modelo organiza la información clave, garantiza la integridad de los datos y permite escalar según las necesidades del sistema.
+
+La base de datos no solo cumple con los requerimientos actuales, sino que también está preparada para futuras integraciones y mejoras
+
+image::/portafolio/adocs/imgGifaDER.jpg[][width=700, height=700]
+
+== Conclusión y habilidades demostradas
+
+Este proyecto refleja competencias técnicas en:
+
+* Desarrollo backend con Spring Boot, JPA/Hibernate y Mysql.
+* Implementación de sistemas de análisis de datos y toma de decisiones.
+* Gestión de equipos de trabajo utilizando metodologías ágiles (Scrum).
+* Manejo de tecnologías modernas como Docker, GitHub Actions y Traccar.
+
+==== Repositorio:
+
+* link:https://github.com/francoleon42/gifa-back[Backend]
+* link:https://github.com/francoleon42/gifa-front[Frontend]
+
