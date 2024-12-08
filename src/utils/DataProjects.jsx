@@ -94,7 +94,7 @@ export const DataProjects = [
     //////////
 
     {
-      id: 5,
+      id: 3,
       img: imgGestorHeladeria,
       title: 'Control de stock para heladeria',
       
@@ -122,6 +122,12 @@ export const DataProjects = [
           titulo:"code-front",
           icon: <FaExternalLinkAlt />,
           path: 'https://francoleon42.github.io/heladeriaFront/'
+        },
+        {
+          id: 3,
+          titulo: "Explicacion",
+          icon: <MdLibraryBooks />,
+          path: "gestorHeladeria.adoc"
         }
       ],
       
@@ -133,7 +139,7 @@ export const DataProjects = [
     ////////////
 
     {
-      id: 3,
+      id: 4,
       img: imgGestorDeTareas,
       title: 'Gestor de tareas - Web',
       skillsBackend: [
@@ -164,7 +170,7 @@ export const DataProjects = [
     //////////
 
     {
-      id: 4,
+      id: 5,
       img: imgClusteringHumano,
       title: 'Clustering Humano - Desktop',
       
@@ -189,7 +195,7 @@ export const DataProjects = [
     //////////
 
     {
-      id: 5,
+      id: 6,
       img: imgAnimeapp,
       title: 'AnimeApp',
       skillsBackend: [

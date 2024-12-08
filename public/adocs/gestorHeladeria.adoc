@@ -1,0 +1,92 @@
+= Gestión de Stock con Códigos QR para Fábrica de Helados
+
+== Descripción General del Proyecto
+
+Este sistema fue diseñado para optimizar la gestión del stock en una fábrica de helados mediante el uso de tecnologías modernas como códigos QR y una aplicación web. El objetivo principal es mejorar la precisión del control de inventarios, reducir errores humanos y optimizar el flujo de producción, asegurando así una operación eficiente y continua.
+
+A través de una solución innovadora, el sistema permite la automatización de procesos clave en la gestión del inventario, garantizando una administración centralizada y en tiempo real.
+
+==== El sistema permite:
+
+* Gestión de productos: Registro, actualización y seguimiento del stock de helados.
+* Generación de códigos QR: Asignación automática de etiquetas únicas para cada producto.
+* Trazabilidad del flujo de productos: Control detallado de entradas y salidas del inventario.
+* Notificaciones automáticas: Alertas sobre niveles bajos de stock para evitar desabastecimiento.
+* Optimización de recursos: Análisis del historial y métricas del inventario.
+
+Diseñado para un entorno web y mobile-first, este sistema es accesible para operadores de producción y encargados de logística, adaptándose a diversos perfiles de usuario.
+
+== Tecnologías Utilizadas
+
+==== Frontend
+
+* React.js: Desarrollo de la interfaz de usuario con diseño intuitivo y responsive.
+* Librerías clave: qrcode.react para la generación de códigos QR, y html5-qrcode para escanearlos.
+
+==== Backend
+
+* Framework: Node.js con Express.
+Base de Datos: PostgreSQL en Supabase para el manejo eficiente de datos.
+* ORM: Sequelize para la interacción con la base de datos.
+* Seguridad: Configuración de CORS para proteger las solicitudes entre frontend y backend.
+
+==== Integración y Despliegue
+
+* Render: Despliegue del backend en la nube.
+* GitHub Pages: Publicación del frontend.
+* Biblioteca XLSX: Exportación de datos a Excel para facilitar reportes.
+
+==== Metodologías
+
+* Desarrollo Iterativo Waterfall: Asegura entregas ordenadas y mejoras continuas en cada fase.
+
+== Requerimientos y Características
+
+=== Funcionales
+
+* Registro de productos y generación automática de códigos QR.
+* Actualización de stock mediante el escaneo de códigos QR.
+* Visualización de productos con stock bajo, historial de movimientos y trazabilidad completa.
+* Descarga de historiales en formato Excel.
+
+=== No Funcionales
+
+* Interfaz intuitiva y adaptable a dispositivos móviles.
+* Alta disponibilidad y rendimiento óptimo.
+* Código documentado para facilitar mantenimiento y escalabilidad.
+
+== Explicación de la Solución
+
+=== Casos de Uso El sistema cubre los siguientes casos de uso clave:
+
+* Registro de nuevos productos.
+* Actualización del stock mediante escaneo de códigos QR.
+* Visualización de productos en stock crítico.
+* Descarga de reportes de historial.
+
+=== Infraestructura y Arquitectura La arquitectura del sistema está basada en componentes desacoplados para garantizar escalabilidad y mantenimiento:
+
+* Frontend: React.js para el diseño responsive y gestión de la experiencia del usuario.
+* Backend: Node.js y PostgreSQL para manejar las solicitudes, lógica de negocio y almacenamiento.
+* Códigos QR: Generación y lectura de etiquetas únicas para la trazabilidad precisa.
+* Exportación de datos: Uso de la biblioteca XLSX para reportes en Excel.
+image::/portafolio/adocs/imgGifaInfra.jpg[width=600, height=600]
+
+=== Diagrama Entidad-Relación (DER) El diseño de la base de datos sigue un modelo relacional robusto que asegura la integridad de los datos, organizado para manejar eficientemente el stock y la trazabilidad.
+
+image::/portafolio/adocs/imgGifaDER.jpg[width=700, height=700]
+
+== Conclusión y Habilidades Demostradas
+
+Este proyecto destaca competencias en:
+
+* Desarrollo de frontend con React.js y bibliotecas avanzadas como qrcode.react.
+* Creación de APIs seguras con Node.js y PostgreSQL.
+* Implementación de soluciones integradas para optimizar la gestión de inventarios.
+* Trabajo bajo metodologías iterativas para entregas eficientes y escalables.
+* Despliegue y mantenimiento de sistemas en la nube.
+
+==== Repositorio:
+
+link:https://github.com/francoleon42/gifa-back[Backend]
+link:https://github.com/francoleon42/gifa-front[Frontend]
