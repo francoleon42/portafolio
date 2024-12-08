@@ -2,43 +2,43 @@
 
 == Descripción General del Proyecto
 
-Este sistema fue diseñado para optimizar la gestión del stock en una fábrica de helados mediante el uso de tecnologías modernas como códigos QR y una aplicación web. El objetivo principal es mejorar la precisión del control de inventarios, reducir errores humanos y optimizar el flujo de producción, asegurando así una operación eficiente y continua.
+Este sistema fue diseñado para _optimizar_ la gestión del stock en una _fábrica de helados_ mediante el uso de tecnologías modernas como códigos _QR_ y una aplicación web. El objetivo principal es mejorar la precisión del _control de inventarios_, reducir errores humanos y optimizar el flujo de producción, asegurando así una operación eficiente y continua.
 
 A través de una solución innovadora, el sistema permite la automatización de procesos clave en la gestión del inventario, garantizando una administración centralizada y en tiempo real.
 
 ==== El sistema permite:
 
-* Gestión de productos: Registro, actualización y seguimiento del stock de helados.
-* Generación de códigos QR: Asignación automática de etiquetas únicas para cada producto.
-* Trazabilidad del flujo de productos: Control detallado de entradas y salidas del inventario.
-* Notificaciones automáticas: Alertas sobre niveles bajos de stock para evitar desabastecimiento.
-* Optimización de recursos: Análisis del historial y métricas del inventario.
+* *Gestión de productos:* Registro, actualización y seguimiento del stock de helados.
+* *Generación de códigos QR:* Asignación automática de etiquetas únicas para cada producto.
+* *Trazabilidad del flujo de productos:* Control detallado de entradas y salidas del inventario.
+* *Notificaciones automáticas:* Alertas sobre niveles bajos de stock para evitar desabastecimiento.
+* *Optimización de recursos:* Análisis del historial y métricas del inventario.
 
-Diseñado para un entorno web y mobile-first, este sistema es accesible para operadores de producción y encargados de logística, adaptándose a diversos perfiles de usuario.
+Diseñado para un _entorno web y mobile-first_, este sistema es accesible para operadores de producción y encargados de logística, adaptándose a diversos perfiles de usuario.
 
 == Tecnologías Utilizadas
 
 ==== Frontend
 
-* React.js: Desarrollo de la interfaz de usuario con diseño intuitivo y responsive.
-* Librerías clave: qrcode.react para la generación de códigos QR, y html5-qrcode para escanearlos.
+* *React.js:* Desarrollo de la interfaz de usuario con diseño intuitivo y responsive.
+* *Librerías clave:* qrcode.react para la generación de códigos QR, y html5-qrcode para escanearlos.
 
 ==== Backend
 
-* Framework: Node.js con Express.
-Base de Datos: PostgreSQL en Supabase para el manejo eficiente de datos.
-* ORM: Sequelize para la interacción con la base de datos.
-* Seguridad: Configuración de CORS para proteger las solicitudes entre frontend y backend.
+* *Framework:* Node.js con Express.
+* *Base de Datos:* PostgreSQL en Supabase para el manejo eficiente de datos.
+* *ORM:* Sequelize para la interacción con la base de datos.
+* *Seguridad:* Configuración de CORS para proteger las solicitudes entre frontend y backend.
 
 ==== Integración y Despliegue
 
-* Render: Despliegue del backend en la nube.
-* GitHub Pages: Publicación del frontend.
-* Biblioteca XLSX: Exportación de datos a Excel para facilitar reportes.
+* *Render:* Despliegue del backend en la nube.
+* *GitHub Pages:* Publicación del frontend.
+* *Biblioteca XLSX:* Exportación de datos a Excel para facilitar reportes.
 
 ==== Metodologías
 
-* Desarrollo Iterativo Waterfall: Asegura entregas ordenadas y mejoras continuas en cada fase.
+* *Desarrollo Iterativo Waterfall:* Asegura entregas ordenadas y mejoras continuas en cada fase.
 
 == Requerimientos y Características
 
@@ -58,33 +58,39 @@ Base de Datos: PostgreSQL en Supabase para el manejo eficiente de datos.
 == Explicación de la Solución
 
 === Casos de Uso El sistema cubre los siguientes casos de uso clave:
+A continuación, se presenta el diagrama de casos de uso que ilustra las principales funcionalidades del sistema de gestión de stock para la fábrica de helados. Este diagrama muestra cómo el encargado puede interactuar con el sistema para realizar tareas clave,lo que facilita la trazabilidad y la eficiencia operativa.
 
-* Registro de nuevos productos.
-* Actualización del stock mediante escaneo de códigos QR.
-* Visualización de productos en stock crítico.
-* Descarga de reportes de historial.
+image::/portafolio/adocs/imgGestorHeladeriaCasosdeuso.jpg[width=450, height=400]
 
-=== Infraestructura y Arquitectura La arquitectura del sistema está basada en componentes desacoplados para garantizar escalabilidad y mantenimiento:
+=== Arquitectura 
+La arquitectura del sistema está basada en componentes desacoplados para garantizar escalabilidad y mantenimiento:
+*Frontend:*
 
-* Frontend: React.js para el diseño responsive y gestión de la experiencia del usuario.
-* Backend: Node.js y PostgreSQL para manejar las solicitudes, lógica de negocio y almacenamiento.
-* Códigos QR: Generación y lectura de etiquetas únicas para la trazabilidad precisa.
-* Exportación de datos: Uso de la biblioteca XLSX para reportes en Excel.
-image::/portafolio/adocs/imgGifaInfra.jpg[width=600, height=600]
+    - Construido con React.js, implementa un diseño responsivo y moderno para optimizar la experiencia del usuario.
+    - Comunicación con el backend mediante solicitudes HTTP utilizando axios o fetch.
+    - Gestión de estados y componentes reutilizables para mantener la consistencia visual y funcional.
 
-=== Diagrama Entidad-Relación (DER) El diseño de la base de datos sigue un modelo relacional robusto que asegura la integridad de los datos, organizado para manejar eficientemente el stock y la trazabilidad.
+*Backend:*
 
-image::/portafolio/adocs/imgGifaDER.jpg[width=700, height=700]
+    - Desarrollado en Node.js siguiendo el patrón Modelo-Vista-Controlador (MVC).
+    - Uso de Sequelize como ORM para gestionar la interacción con PostgreSQL, asegurando consultas eficientes y reducción de errores en las operaciones de base de datos.
+    - Implementación de lógica de negocio en servicios desacoplados de los controladores, facilitando pruebas unitarias.
+    
+*Base de Datos:*
+
+    - PostgreSQL desplegado en Supabase, configurado para soportar integridad referencial y optimizado con índices.
+    - Modelos relacionales claros para productos e historial de cambios.
+
+image::/portafolio/adocs/imgGestorHeladeriaArquitectura.jpg[width=8000, height=500]
+
+=== Diagrama de clases 
+Este diagrama, diseñado con un enfoque estratégico, optimiza la gestión de stock y asegura una trazabilidad eficiente de los productos del stock de la heladería. Aunque sencillo, está cuidadosamente pensado para abordar los puntos clave en el flujo de información, facilitando un control claro y efectivo de los procesos.
+
+image::/portafolio/adocs/imgGestorHeladeriaDClases.jpg[width=400, height=300]
 
 == Conclusión y Habilidades Demostradas
 
-Este proyecto destaca competencias en:
-
-* Desarrollo de frontend con React.js y bibliotecas avanzadas como qrcode.react.
-* Creación de APIs seguras con Node.js y PostgreSQL.
-* Implementación de soluciones integradas para optimizar la gestión de inventarios.
-* Trabajo bajo metodologías iterativas para entregas eficientes y escalables.
-* Despliegue y mantenimiento de sistemas en la nube.
+Este proyecto fortaleció mis habilidades técnicas en desarrollo full-stack, arquitectura escalable y metodologías iterativas. Aprendí a integrar tecnologías modernas para resolver problemas reales, optimizar procesos y garantizar soluciones eficientes y mantenibles en un entorno profesional.
 
 ==== Repositorio:
 

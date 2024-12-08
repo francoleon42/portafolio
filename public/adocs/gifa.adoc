@@ -98,14 +98,12 @@ La base de datos no solo cumple con los requerimientos actuales, sino que tambi�
 
 image::/portafolio/adocs/imgGifaDER.jpg[][width=700, height=700]
 
-== Conclusión y habilidades demostradas
+== Conclusión 
+Este proyecto me permitió desarrollarme profesionalmente en varios _aspectos clave_. Fortalecí mis _habilidades para trabajar en equipos colaborativos_ y en _proyectos de gran alcance_, aprendiendo a _coordinar tareas_ y a aplicar _metodologías ágiles_ para cumplir con _objetivos exigentes_.
 
-Este proyecto refleja competencias técnicas en:
+Mi principal aporte fue el _desarrollo del backend_, donde fortalecí mis habilidades trabajando con _Spring Boot_, _JPA/Hibernate_ y _MySQL_, me familiaricé con el uso de _servicios externos_ como _Metabase_ y _Traccar_, lo que mejoró mi capacidad para _integrar herramientas avanzadas_ en soluciones empresariales.
 
-* Desarrollo backend con Spring Boot, JPA/Hibernate y Mysql.
-* Implementación de sistemas de análisis de datos y toma de decisiones.
-* Gestión de equipos de trabajo utilizando metodologías ágiles (Scrum).
-* Manejo de tecnologías modernas como Docker, GitHub Actions y Traccar.
+Además, adquirí _experiencia en DevOps_ y _despliegue en la nube_, utilizando tecnologías como _AWS_, _Docker_ y _GitHub Actions_ para optimizar la _entrega continua_ y garantizar la _escalabilidad del sistema_. Este proyecto consolidó mi capacidad para _diseñar soluciones robustas_, _escalables_ y _seguras_.
 
 ==== Repositorio:
 
