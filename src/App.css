@@ -3,7 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
 
 /*================= MOBILE CSS =================*/
+@media (max-width: 768px) {
+  body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    margin: 0; /* Asegura que no haya márgenes */
+    padding: 0; /* Asegura que no haya relleno */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+  }
 
+  .app {
+    height: 100vh; /* Asegura que la app ocupe toda la altura de la pantalla */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  }
+}
 /*================= CSS VARIABLES =================*/
 
 :root {
@@ -67,16 +81,10 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  margin: 0; /* Asegura que no haya márgenes */
-  padding: 0; /* Asegura que no haya relleno */
-  overflow-x: hidden; /* Evita el desplazamiento horizontal */
-  width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
 .app {
   height: 100vh; /* Asegura que la app ocupe toda la altura de la pantalla */
-  width: 100%; /* Asegura que ocupe todo el ancho */
-  overflow-x: hidden; /* Evita el desplazamiento horizontal */
 }
 
 

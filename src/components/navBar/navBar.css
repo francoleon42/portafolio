@@ -74,8 +74,7 @@
         padding: 24px 33px;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 
-        /*borrar*/
-        margin-right: 14%;
+      
     }
 
     /* Cuando el menú se abre, se muestra */
@@ -94,8 +93,7 @@
         padding: 12px 10px;
         cursor: pointer;
 
-        /*borrar*/
-        margin-right: 10%;
+       
     }
 
     .nav__toggle span {
