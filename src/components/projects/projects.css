@@ -60,10 +60,11 @@
 /*Habilidades : */
 .card_titulo_tipo_skill {
     margin-right: -20%;
-    margin-left: -2%;
-    font-size: 85%;
+    margin-left: -1%;
+    font-size: 82%;
   
 }
+
 .skill-type {
     font-size: 1.4rem; /* Cambia el tamaño según tus necesidades */
     font-weight: bold;
@@ -126,7 +127,28 @@
 .card__article:not(:hover) .card__data {
     animation: remove-data 1s forwards;
 }
-
+.links_proyects{
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;/* Permite que los íconos se envuelvan en múltiples filas */
+    justify-content: center;
+    background-color: cadetblue;
+}
+.icon__link{
+    display: flex;
+    color:yellow; 
+    justify-content: center;
+}
+.icon_link_titulo{
+    display: flex;
+    color: yellow;
+    justify-content: center;
+}
+/*Para que los proyectos esten mas separados*/
+.card__article{
+    margin-top: 9%;
+}
 
 @keyframes show-data {
     50% {
@@ -181,3 +203,31 @@
         grid-template-columns: repeat(3, 385px);
     }
 }
+
+
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  
+    .card_titulo_tipo_skill {
+        margin-right: -10%;
+        margin-left: 4%;
+        margin-top: 4%;
+        font-size: 80%;
+    }
+    .skill-item {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que los íconos se envuelvan en múltiples filas */
+        justify-content: center;
+        /* Centra los íconos horizontalmente */
+        gap: 5px;
+        /* Espacio entre los íconos */
+        font-size: 30px;
+        /* Tamaño de fuente para los íconos */
+        margin-top: 7px;
+        /* Espacio superior */
+        margin-bottom: -4%;
+    }
+}
+
+

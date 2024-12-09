@@ -147,13 +147,14 @@ p {
 
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
 
     /* Para pantallas menores a 699px*/
     .about__description {
         margin-top: -38%;
         /* Oculta el elemento */
     }
+
 
 }
 

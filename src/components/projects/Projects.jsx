@@ -44,7 +44,7 @@ const Projects = () => {
                   )}
 
                   {links.length > 0 && (
-                    <div className="card__icons">
+                    <div className="links_proyects">
                       {links.map(({ icon, path, titulo }, index) => (
                         <div key={index}>
                           {/* Verifica si el path termina en .adoc antes de renderizar el enlace */}
