@@ -166,3 +166,12 @@
         align-items: flex-start;
     }
 }
+
+
+/*Mobile First*/
+/*Borrar el boton de conoceme para celulares*/
+@media screen and (max-width: 769px) { /* Para pantallas menores a 769px*/
+    .home__button {
+        display: none; /* Oculta el elemento */
+    }
+}

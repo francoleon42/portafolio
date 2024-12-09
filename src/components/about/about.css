@@ -14,7 +14,7 @@
     gap: 20px;
 }
 
-span{
+span {
     color: var(--first-color);
 }
 
@@ -48,28 +48,29 @@ p {
 
 
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 425px) {
     .about__description {
         line-height: 2;
     }
 }
 
-@media screen and (min-width:580px){
+@media screen and (min-width:580px) {
     .about__profile {
         height: 35vh;
     }
+
     .about__title {
         font-size: var(--h2-font-size);
     }
 }
 
-@media screen and (min-width:675px){
+@media screen and (min-width:675px) {
     .about__profile {
         height: 40vh;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
 
     .about {
@@ -98,7 +99,7 @@ p {
 }
 
 
-@media screen and (min-width: 1140px){
+@media screen and (min-width: 1140px) {
 
 
     .about__description p {
@@ -109,3 +110,60 @@ p {
         height: 385px;
     }
 }
+
+
+
+/*---MOBILE FIRST--*/
+
+/*Borrar la imagen de about para celulares*/
+/*oculto el titulo que dice Sobre mi */
+/*Y hago que la descripcion este mas cerca */
+@media screen and (max-width: 699px) {
+
+    /* Para pantallas menores a 699px*/
+    .about__img {
+        display: none;
+        /* Oculta el elemento */
+    }
+
+    .about__title {
+        display: none;
+        /* Oculta el elemento */
+    }
+
+    .about__description {
+        margin-top: -5%;
+    }
+}
+/*HaGO QUE LA DESCRIPCION ESTE MAS CERCA PARA TODAS LAS PANTALLAS */
+
+@media screen and (max-width: 477px) {
+
+    /* Para pantallas menores a 699px*/
+    .about__description {
+        margin-top: -12%;
+        /* Oculta el elemento */
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+
+    /* Para pantallas menores a 699px*/
+    .about__description {
+        margin-top: -25%;
+        /* Oculta el elemento */
+    }
+
+}
+
+@media screen and (max-width: 348px) {
+
+    /* Para pantallas menores a 699px*/
+    .about__description {
+        margin-top: -35%;
+        /* Oculta el elemento */
+    }
+
+}
+

@@ -1,3 +1,4 @@
+
 /* Estilos generales */
 .card-container {
   display: flex;
@@ -80,4 +81,28 @@
     padding: 1rem;
     align-items: center;
   }
+}
+
+
+/*---MOBILE FIRST--*/
+
+/*Para celulares que se vea cerca el cerebroDigital comparado al about */
+@media screen and (max-width: 699px) { /* Para pantallas menores a 699px*/
+  .card-container {
+     margin-top: -24%; /* Oculta el elemento */
+  }
+  
+}
+@media screen and (max-width: 445px) { /* Para pantallas menores a 699px*/
+  .card-container {
+     margin-top: -24%; /* Oculta el elemento */
+  }
+  
+}
+
+@media screen and (max-width: 325px) { /* Para pantallas menores a 699px*/
+  .card-container {
+     margin-top: -10%; /* Oculta el elemento */
+  }
+  
 }
