@@ -127,6 +127,8 @@
 .card__article:not(:hover) .card__data {
     animation: remove-data 1s forwards;
 }
+
+/*Seccion de link de los proyectos*/
 .links_proyects{
     margin-top: 6%;
     display: flex;
@@ -136,15 +138,18 @@
     background-color: cadetblue;
 }
 .icon__link{
+    margin-top: 9%;
     display: flex;
     color:yellow; 
     justify-content: center;
 }
 .icon_link_titulo{
+    margin-top: -1%;
     display: flex;
     color: yellow;
     justify-content: center;
 }
+/*------------*/
 /*Para que los proyectos esten mas separados*/
 .card__article{
     margin-top: 9%;
