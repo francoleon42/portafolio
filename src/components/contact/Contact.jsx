@@ -22,7 +22,7 @@ const Contact = () => {
             )
           })}
         </ul>
-        <small className='footer'>&copy; 2024 <b>Franco León Costantini</b> - Todos los derechos reservados</small>
+        <small className='footer'>&copy;<b>Franco León Costantini</b> - Todos los derechos reservados</small>
       </div>
     </footer>
   )
