@@ -7,9 +7,11 @@
   font-size: 1rem;
   color: cadetblue
 }
+
 .adoc-container em {
   color: #dcdcaa
 }
+
 .adoc-container h1 {
   font-size: 2rem;
   color: #ffcc00;
@@ -22,144 +24,271 @@
 
 
 .adoc-container ul {
-  
+
   margin-left: 20px;
-  list-style-type: disc; /* Aplica un estilo de lista con puntos */
+  list-style-type: disc;
+  /* Aplica un estilo de lista con puntos */
 }
 
 .adoc-container ul li {
-  
+
   margin-bottom: 10px;
   color: #f5f5f5;
-  
+
 }
+
 .adoc-container h2:hover {
-  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+  transform: translateY(-5px);
+  /* Efecto de elevación al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  /* Aumenta la sombra */
 }
 
 /* Asegúrate de usar una tipografía adecuada */
 .adoc-container {
-    font-family: 'Courier New', Courier, monospace; /* Fuente de tipo monoespaciado, ideal para terminales */
-    background-color: #282c34; /* Fondo oscuro tipo terminal */
-    color: #f5f5f5; /* Texto claro */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para un efecto moderno */
-    overflow: auto; /* Permite el desplazamiento si el contenido es grande */
-    line-height: 1.6;
-    max-width: 90%; /* Controla el ancho máximo */
-    margin: 20px auto; /* Centra el contenedor */
-  }
-  
-  /* Estilo para los encabezados */
-  .adoc-container h1, .adoc-container h2, .adoc-container h3,  .adoc-container h5, .adoc-container h6 {
-    color: #ffcc00; /* Color amarillo para los encabezados */
-    border-bottom: 2px solid #ffcc00; /* Subrayado sutil */
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  .adoc-container h3{
-    color: #ffcc00; /* Color amarillo para los encabezados */
-    border-bottom: 2px solid rgba(255, 204, 0, 0.9); 
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  
-  .adoc-container h4{
-    color: #ffcc00;
-     
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  /* Fuente de tipo monoespaciado, ideal para terminales */
+  background-color: #282c34;
+  /* Fondo oscuro tipo terminal */
+  color: #f5f5f5;
+  /* Texto claro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Sombra para un efecto moderno */
+  overflow: auto;
+  /* Permite el desplazamiento si el contenido es grande */
+  line-height: 1.6;
+  max-width: 90%;
+  /* Controla el ancho máximo */
+  margin: 20px auto;
+  /* Centra el contenedor */
+}
 
-  }
-  
-  /* Estilo para los párrafos */
-  .adoc-container p {
-    
-    margin-bottom: 11px;
-    color: #f5f5f5;
-    font-size: 1rem;
-    word-wrap: break-word; /* Evita que las palabras largas se desborden */
-  }
-  
-  /* Estilo para las listas */
-  .adoc-container ul, .adoc-container ol {
-    margin-left: 20px;
-    color: #f5f5f5;
-  }
-  
-  /* List items */
-  .adoc-container li {
-    margin-bottom: 10px;
-  }
-  
-  /* Código dentro del adoc */
-  .adoc-container pre {
-    background-color: #1e1e1e; /* Fondo oscuro para el código */
-    color: #dcdcaa; /* Color del texto dentro del código */
-    padding: 10px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.95rem;
-    white-space: pre-wrap; /* Permite el ajuste de línea en el código */
-    word-wrap: break-word;
-  }
-  
-  /* Links */
-  .adoc-container a {
-    color: #61dafb; /* Azul brillante para los enlaces */
-    text-decoration: none;
-  }
-  
-  .adoc-container a:hover {
-    text-decoration: underline; /* Subrayado al pasar el mouse */
-  }
-  
-  /* Estilo para las tablas */
-  .adoc-container table {
+/* Estilo para los encabezados */
+.adoc-container h1,
+.adoc-container h2,
+.adoc-container h3,
+.adoc-container h5,
+.adoc-container h6 {
+  color: #ffcc00;
+  /* Color amarillo para los encabezados */
+  border-bottom: 2px solid #ffcc00;
+  /* Subrayado sutil */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.adoc-container h3 {
+  color: #ffcc00;
+  /* Color amarillo para los encabezados */
+  border-bottom: 2px solid rgba(255, 204, 0, 0.9);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.adoc-container h4 {
+  color: #ffcc00;
+
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+}
+
+/* Estilo para los párrafos */
+.adoc-container p {
+
+  margin-bottom: 11px;
+  color: #f5f5f5;
+  font-size: 1rem;
+  word-wrap: break-word;
+  /* Evita que las palabras largas se desborden */
+}
+
+/* Estilo para las listas */
+.adoc-container ul,
+.adoc-container ol {
+  margin-left: 20px;
+  color: #f5f5f5;
+}
+
+/* List items */
+.adoc-container li {
+  margin-bottom: 10px;
+}
+
+/* Código dentro del adoc */
+.adoc-container pre {
+  background-color: #1e1e1e;
+  /* Fondo oscuro para el código */
+  color: #dcdcaa;
+  /* Color del texto dentro del código */
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  /* Permite el ajuste de línea en el código */
+  word-wrap: break-word;
+}
+
+/* Links */
+.adoc-container a {
+  color: #61dafb;
+  /* Azul brillante para los enlaces */
+  text-decoration: none;
+}
+
+.adoc-container a:hover {
+  text-decoration: underline;
+  /* Subrayado al pasar el mouse */
+}
+
+/* Estilo para las tablas */
+.adoc-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.adoc-container th,
+.adoc-container td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+
+.adoc-container th {
+  background-color: #444;
+  color: #ffcc00;
+  /* Amarillo para los encabezados de las tablas */
+}
+
+/* Definición de un estilo de bloque */
+.adoc-container blockquote {
+  background-color: #333;
+  border-left: 5px solid #ffcc00;
+  padding: 10px 20px;
+  margin: 20px 0;
+  color: #f5f5f5;
+  font-style: italic;
+}
+
+.adoc-header {
+  background-color: #333;
+  /* Fondo oscuro para el header */
+  padding: 10px 20px;
+  /* Espaciado interno */
+  text-align: right;
+  /* Alinea el botón a la derecha */
+  position: fixed;
+  /* Mantén el header fijo en la parte superior */
+  top: 0;
+  width: 100%;
+  /* Ocupa todo el ancho de la pantalla */
+  z-index: 10;
+  /* Asegúrate de que el header esté por encima de otros elementos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra sutil */
+}
+
+.back-button {
+  background-color: #4CAF50;
+  /* Fondo verde */
+  color: white;
+  /* Texto blanco */
+  padding: 10px 20px;
+  /* Relleno */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cambia el cursor al pasar por encima */
+  font-size: 16px;
+  /* Tamaño de fuente */
+}
+
+
+/*  ================= VERSION MOBILE PARA EL ADOCRENDER  =================*/
+@media screen and (min-width: 200px) and (max-width: 699px) {
+  /* Imágenes (ya lo tienes) */
+  img {
     width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
   }
-  
-  .adoc-container th, .adoc-container td {
-    border: 1px solid #444;
-    padding: 8px;
-    text-align: left;
+
+  /* Ajusta los encabezados */
+  .adoc-container h1 {
+    font-size: 1.5rem; 
   }
-  
-  .adoc-container th {
-    background-color: #444;
-    color: #ffcc00; /* Amarillo para los encabezados de las tablas */
+
+  .adoc-container h2 {
+    font-size: 1.2rem; 
   }
-  
-  /* Definición de un estilo de bloque */
+
+  .adoc-container h3 {
+    font-size: 1rem; 
+  }
+
+  /* Ajusta los párrafos */
+  .adoc-container p {
+    font-size: 0.8rem; 
+    line-height: 1.4; 
+  }
+
+  /* Ajusta listas */
+  .adoc-container ul,
+  .adoc-container ol {
+    margin-left: 15px; 
+    font-size: 0.9rem; 
+  }
+
+  .adoc-container li {
+    margin-bottom: 8px; 
+  }
+
+  /* Tablas */
+  .adoc-container table {
+    font-size: 0.8rem; 
+    margin: 10px 0; 
+  }
+
+  .adoc-container th,
+  .adoc-container td {
+    padding: 6px; 
+  }
+
+  /* Código */
+  .adoc-container pre {
+    font-size: 0.8rem; 
+    padding: 8px; 
+  }
+
+  /* Bloques de cita */
   .adoc-container blockquote {
-    background-color: #333;
-    border-left: 5px solid #ffcc00;
-    padding: 10px 20px;
-    margin: 20px 0;
-    color: #f5f5f5;
-    font-style: italic;
+    font-size: 0.9rem; 
+    padding: 8px 15px; 
   }
-  
+
+  /* Contenedor general */
+  .adoc-container {
+    padding: 10px; 
+    max-width: 95%; 
+    margin: 10px auto; 
+  }
+
+  /* Botón del header */
   .adoc-header {
-    background-color: #333; /* Fondo oscuro para el header */
-    padding: 10px 20px; /* Espaciado interno */
-    text-align: right; /* Alinea el botón a la derecha */
-    position: fixed; /* Mantén el header fijo en la parte superior */
-    top: 0;
-    width: 100%; /* Ocupa todo el ancho de la pantalla */
-    z-index: 10; /* Asegúrate de que el header esté por encima de otros elementos */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 8px 15px; 
   }
+
   .back-button {
-    background-color: #4CAF50; /* Fondo verde */
-    color: white; /* Texto blanco */
-    padding: 10px 20px; /* Relleno */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
-    font-size: 16px; /* Tamaño de fuente */
+    font-size: 14px; 
+    padding: 8px 15px; 
   }
+}

@@ -4,9 +4,9 @@
 image::/portafolio/adocs/imgGifalogo.jpg[width=200, height=200]
 
 == Gestión Integral de Flota de Automotores (GIFA) 
-Es un sistema desarrollado para optimizar la administración de flotas de transporte, con un enfoque especial en la mejora de la operación de colectivos. Su objetivo principal es incrementar la eficiencia operativa mediante el uso de soluciones tecnológicas innovadoras.
+Es un sistema desarrollado para optimizar la _gestion de flotas de transporte_, con un enfoque especial en la mejora de la operación de colectivos. Su objetivo principal es incrementar la _eficiencia operativa_ mediante el uso de soluciones _tecnológicas innovadoras_.
 
-Para lograr esto, se ha implementado un conjunto de funcionalidades diseñadas para elevar la calidad del servicio, automatizando y centralizando los procesos clave, lo que facilita una gestión más ágil y eficaz.
+Para lograr esto, se ha implementado un conjunto de funcionalidades diseñadas para elevar la calidad del servicio, _automatizando y centralizando los procesos clave_, lo que facilita una gestión más ágil y eficaz.
 
 ==== El sistema permite:
 
