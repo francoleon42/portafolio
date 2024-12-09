@@ -89,13 +89,19 @@
 /*Para celulares que se vea cerca el cerebroDigital comparado al about */
 @media screen and (max-width: 699px) { /* Para pantallas menores a 699px*/
   .card-container {
-     margin-top: -24%; /* Oculta el elemento */
+     margin-top: -28%; /* Oculta el elemento */
   }
   
 }
-@media screen and (max-width: 445px) { /* Para pantallas menores a 699px*/
+@media screen and (max-width: 550px) { /* Para pantallas menores a 699px*/
   .card-container {
-     margin-top: -24%; /* Oculta el elemento */
+     margin-top: -22%; /* Oculta el elemento */
+  }
+  
+}
+@media screen and (max-width: 485px) { /* Para pantallas menores a 699px*/
+  .card-container {
+     margin-top: -37%; /* Oculta el elemento */
   }
   
 }
