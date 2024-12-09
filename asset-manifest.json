@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.c9173b88.css",
-    "main.js": "/portafolio/static/js/main.2981b401.js",
-    "static/media/imgHome.jpeg": "/portafolio/static/media/imgHome.9cb8b478332623a7b617.jpeg",
+    "main.css": "/portafolio/static/css/main.77bdebde.css",
+    "main.js": "/portafolio/static/js/main.d9293bfb.js",
     "static/media/imgIspeak.jpeg": "/portafolio/static/media/imgIspeak.6ab6b899f0492cab4f59.jpeg",
     "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
     "static/media/imgClusteringHumano.jpeg": "/portafolio/static/media/imgClusteringHumano.52674effacdf81699730.jpeg",
@@ -13,16 +12,17 @@
     "static/media/certificate-2.jpeg": "/portafolio/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
     "static/media/imgGestorHeladeria.jpeg": "/portafolio/static/media/imgGestorHeladeria.1345ce9b8d1a04563109.jpeg",
     "static/media/certificate-1.jpeg": "/portafolio/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
+    "static/media/imgHome.jpeg": "/portafolio/static/media/imgHome.ff7bd09aca2c869fc345.jpeg",
     "static/media/segundoCerebro.jpeg": "/portafolio/static/media/segundoCerebro.b0215665f58d3a5d02f8.jpeg",
     "static/media/gifaDER.jpg": "/portafolio/static/media/gifaDER.8137a7ab529bd1d02d2f.jpg",
     "static/media/imgGestorDeTareas.jpeg": "/portafolio/static/media/imgGestorDeTareas.9422c912febbc370f543.jpeg",
     "static/media/imgAbout.jpeg": "/portafolio/static/media/imgAbout.aa89f1d08052c40d94e1.jpeg",
     "index.html": "/portafolio/index.html",
-    "main.c9173b88.css.map": "/portafolio/static/css/main.c9173b88.css.map",
-    "main.2981b401.js.map": "/portafolio/static/js/main.2981b401.js.map"
+    "main.77bdebde.css.map": "/portafolio/static/css/main.77bdebde.css.map",
+    "main.d9293bfb.js.map": "/portafolio/static/js/main.d9293bfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9173b88.css",
-    "static/js/main.2981b401.js"
+    "static/css/main.77bdebde.css",
+    "static/js/main.d9293bfb.js"
   ]
 }
