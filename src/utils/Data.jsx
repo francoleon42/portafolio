@@ -22,9 +22,19 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import DataProjects from './DataProjects';
 import DataSkills from './DataSkills';
+import imgAbout from "../assets/img/imgAbout.jpeg"
+import imgHome from "../assets/img/imgHome.jpeg"
+import  cv from  '../assets/pdf/cv.pdf'
+
 
 export const projects = DataProjects;
 export const skills = DataSkills;
+
+export const fotoHome = imgHome;
+export const fotoAbout = imgAbout;
+export const CV = cv;
+
+
 
 export const secciones = [
   {
