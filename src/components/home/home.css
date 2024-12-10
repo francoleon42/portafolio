@@ -36,20 +36,20 @@
 .home__img {
     width: 100%;
     height: auto;
-    max-width: 100%;
     object-fit: cover;
     margin: 0 auto;
     display: block;
 }
 
 .home__profile {
-    clip-path: circle(50% at 50% 50%);
-    width: 70%;
+    clip-path: circle(42% at 47% 50%);
+    width: 100%;
 }
 
 .home__content {
     text-align: center;
-    height: 120%;
+    height: 80%;
+    
 }
 
 .home__text {
