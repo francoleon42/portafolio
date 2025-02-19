@@ -1,0 +1,30 @@
+ANIME APP
+
+ {
+     id: 6,
+     img: imgAnimeapp,
+     title: 'AnimeApp',
+     skillsBackend: [],
+     skillsFrontend: [
+         { type: <FaReact />, name: "React"
+         },
+         { type: <SiJavascript />, name: "JavaScript"
+         },
+         { type: <SiCypress />, name: "Cypress"
+         }
+     ],
+     links: [
+         {
+         id: 1,
+         titulo: "code-fullStack",
+         icon: <FaGithub />,
+         path: 'https: //gitlab.com/FrankLeon42/animeapp'
+         },
+         {
+         id: 2,
+         titulo: "deploy",
+         icon: <FaExternalLinkAlt />,
+         path: 'https: //frankleon42.gitlab.io/animeapp/'
+         }
+     ],
+ }

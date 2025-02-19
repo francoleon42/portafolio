@@ -1,0 +1,109 @@
+= Giusepe Market
+:author: 
+:toc:  
+:toclevels: 1
+
+== Introducción
+
+Este proyecto fue desarrollado con un enfoque comercial, destinado a comerciantes que requerían un software de gestión para sus negocios.
+
+=== Propósito
+Desarrollar un sistema integral para la gestión de comercios, orientado a facilitar operaciones diarias como ventas, control de stock, administración de usuarios y gestión de caja. El sistema busca optimizar procesos manuales, reducir errores y ofrecer reportes analíticos para la toma de decisiones.
+
+=== Alcance
+
+==== Versión 1 (MVP)
+
+* Plataforma web o móvil para consultar productos por nombre o código de barras.
+* Módulos básicos: Productos, Búsqueda.
+
+==== Versión 2 (Completa)
+
+Aplicación web/escritorio con funcionalidades avanzadas:
+
+* *Módulo Ventas*: Registro de ventas, descuentos, gestión de pagos.
+* *Módulo Productos*: ABM de productos, control de stock y lotes.
+* *Módulo Usuarios*: Roles (vendedor/administrador), gestión de sucursales.
+* *Módulo Caja*: Apertura/cierre, conciliación financiera.
+
+== Requerimientos Funcionales
+
+=== Módulo Ventas
+[options="header"]
+|===
+| ID | Requerimiento | Descripción
+| 1.1 | Realizar venta | Registrar ventas con condiciones de pago (contado, crédito, etc.). Disminuir stock automáticamente (priorizando vencimientos más antiguos).
+| 1.2 | Cálculo de totales | Subtotal (suma de precios), descuentos porcentuales, total final.
+| 1.3 | Reportes de ventas | Visualizar ventas por rango de fechas, con ganancias calculadas (precio - costo).
+| 1.4 | Productos por sucursal | Restringir ventas a productos disponibles en la sucursal del usuario.
+|===
+
+=== Módulo Productos
+[options="header"]
+|===
+| ID | Requerimiento | Descripción
+| 2.1 | ABM de productos | Crear, modificar o deshabilitar productos. Asignar impuestos y lotes.
+| 2.2 | Control de stock | Alertas de stock mínimo y vencimientos próximos (≤1 mes).
+| 2.3 | Listas mayorista/minorista | Filtrar productos según tipo de venta (mayorista: ventas a granel; minorista: venta física).
+|===
+
+=== Módulo Usuarios
+[options="header"]
+|===
+| ID | Requerimiento | Descripción
+| 3.1 | Roles | Diferenciar entre administrador (gestión global) y vendedor (operaciones diarias).
+| 3.2 | Sucursal | Cada usuario pertenece a una única sucursal (ej: "Sucursal Online", "Sucursal Centro").
+|===
+
+=== Módulo Caja
+[options="header"]
+|===
+| ID | Requerimiento | Descripción
+| 4.1 | Apertura/cierre | Registrar monto inicial y conciliar con monto real al cierre.
+| 4.2 | Reportes financieros | Ver cajas por fechas, incluyendo diferencias (ideal: diferencia = 0).
+|===
+
+== Requerimientos No Funcionales
+
+* *Seguridad:* Autenticación de usuarios y encriptación de datos sensibles.
+* *Portabilidad:* Compatibilidad con Android, iOS y navegadores web (Chrome, Firefox).
+* *Usabilidad:* Interfaz intuitiva con flujos claros para ventas y reportes.
+* *Rendimiento:* Respuesta en <2 segundos para búsquedas y transacciones.
+
+== Diagramas
+
+=== Diagrama de Clases
+
+image::/portafolio/adocs/imgGMarketD.Clases.jpg[width=1100, height=600]
+
+*Descripción:*
+El diagrama modela las entidades principales del sistema:
+
+* *Venta*: Relacionada con Usuario (vendedor) y ItemVenta.
+* *Producto*: Contiene ItemProducto (lotes, vencimientos).
+* *Caja*: Registra movimientos financieros vinculados a Venta.
+* *Sucursal*: Agrupa usuarios y productos según ubicación.
+
+=== Arquitectura del Sistema
+
+==== Front-End
+
+* React Native.
+
+==== Back-End
+
+* API REST con Spring Boot
+
+==== Base de Datos
+
+* Mysql (gestión transaccional)
+
+==== Servidores
+
+* Cloud (AWS, Google Cloud) con balanceadores de carga.
+
+== Conclusión
+
+Este sistema centraliza la gestión de comercios, mejorando la eficiencia operativa y proporcionando insights clave mediante reportes personalizados. Su diseño modular permite escalabilidad para futuras integraciones (ej: ERP, pasarelas de pago).
+
+

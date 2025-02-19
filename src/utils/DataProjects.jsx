@@ -4,6 +4,7 @@ import imgGestorHeladeria from '../assets/img/imgGestorHeladeria.jpeg';
 import imgGestorDeTareas from '../assets/img/imgGestorDeTareas.jpeg';
 import imgClusteringHumano from '../assets/img/imgClusteringHumano.jpeg';
 import imgAnimeapp from '../assets/img/imgAnimeapp.jpeg';
+import imgGiuseppeMarket from "../assets/img/GiuseppeMarketImg/GiuseppeMarketImg.jpeg"
 
 import { FaExternalLinkAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
@@ -61,10 +62,42 @@ export const DataProjects = [
         }
       ]
     },
+//////////////
+//////////////
+    {
+      id: 2,
+      img: imgGiuseppeMarket,
+      title: 'Giuseppe Market',
+      
+      skillsBackend: [
+        { type: <FaJava />,name:"Java" },
+        { type: <SiSpring />,name:"Spring" },
+        { type: <GrMysql /> ,name:"Mysql"},
+        { type: <SiHibernate /> ,name:"Hibernate"},
+        
+      ],
+      skillsFrontend: [
+      ],
+      links: [
+        {
+          id: 1,
+          titulo:"Backend",
+          icon: <FaGithub />,
+          path: 'https://github.com/francoleon42/giuseppeMarket-back'
+        },
+        {
+          id: 2,
+          titulo: "Explicacion",
+          icon: <MdLibraryBooks />,
+          path: "gMarket.adoc "
+        }
+      ]
+    },
+
   //////////
   /////////
     {
-      id: 2,
+      id: 3,
       img: imgIspeak,
       title: 'I speak - Web',
       skillsBackend: [
@@ -94,7 +127,7 @@ export const DataProjects = [
     //////////
 
     {
-      id: 3,
+      id: 4,
       img: imgGestorHeladeria,
       title: 'Control de stock para heladeria',
       
@@ -119,7 +152,7 @@ export const DataProjects = [
         },
         {
           id: 2,
-          titulo:"code-front",
+          titulo:"code-frontend",
           icon: <FaExternalLinkAlt />,
           path: 'https://francoleon42.github.io/heladeriaFront/'
         },
@@ -139,7 +172,7 @@ export const DataProjects = [
     ////////////
 
     {
-      id: 4,
+      id: 5,
       img: imgGestorDeTareas,
       title: 'Gestor de tareas - Web',
       skillsBackend: [
@@ -170,7 +203,7 @@ export const DataProjects = [
     //////////
 
     {
-      id: 5,
+      id: 6,
       img: imgClusteringHumano,
       title: 'Clustering Humano - Desktop',
       
@@ -193,34 +226,6 @@ export const DataProjects = [
 
     ///////////
     //////////
-
-    {
-      id: 6,
-      img: imgAnimeapp,
-      title: 'AnimeApp',
-      skillsBackend: [
-      ],
-      skillsFrontend: [
-        { type: <FaReact />, name: "React" },
-        { type: <SiJavascript />, name: "JavaScript" },
-        { type: <SiCypress />, name: "Cypress" }
-      ],
-      links: [
-        {
-          id: 1,
-          titulo:"code-fullStack",
-          icon: <FaGithub />,
-          path: 'https://gitlab.com/FrankLeon42/animeapp'
-        },
-        {
-          id: 2,
-          titulo:"deploy",
-          icon: <FaExternalLinkAlt />,
-          path: 'https://frankleon42.gitlab.io/animeapp/'
-        }
-      ],
-    },
-  
   ]
 
   export default DataProjects;
