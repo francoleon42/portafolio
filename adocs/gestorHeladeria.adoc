@@ -60,7 +60,7 @@ Diseñado para un _entorno web y mobile-first_, este sistema es accesible para o
 === Casos de Uso El sistema cubre los siguientes casos de uso clave:
 A continuación, se presenta el diagrama de casos de uso que ilustra las principales funcionalidades del sistema de gestión de stock para la fábrica de helados. Este diagrama muestra cómo el encargado puede interactuar con el sistema para realizar tareas clave,lo que facilita la trazabilidad y la eficiencia operativa.
 
-image::/portafolio/adocs/imgGestorHeladeriaCasosdeuso.jpg[width=450, height=400]
+image::/portafolio/adocs/imgProjects/imgGestorHeladeriaCasosdeuso.jpg[width=450, height=400]
 
 === Arquitectura 
 La arquitectura del sistema está basada en componentes desacoplados para garantizar escalabilidad y mantenimiento:
@@ -81,12 +81,12 @@ La arquitectura del sistema está basada en componentes desacoplados para garant
     - PostgreSQL desplegado en Supabase, configurado para soportar integridad referencial y optimizado con índices.
     - Modelos relacionales claros para productos e historial de cambios.
 
-image::/portafolio/adocs/imgGestorHeladeriaArquitectura.jpg[width=8000, height=500]
+image::/portafolio/adocs/imgProjects/imgGestorHeladeriaArquitectura.jpg[width=8000, height=500]
 
 === Diagrama de clases 
 Este diagrama, diseñado con un enfoque estratégico, optimiza la gestión de stock y asegura una trazabilidad eficiente de los productos del stock de la heladería. Aunque sencillo, está cuidadosamente pensado para abordar los puntos clave en el flujo de información, facilitando un control claro y efectivo de los procesos.
 
-image::/portafolio/adocs/imgGestorHeladeriaDClases.jpg[width=400, height=300]
+image::/portafolio/adocs/imgProjects/imgGestorHeladeriaDClases.jpg[width=400, height=300]
 
 == Conclusión y Habilidades Demostradas
 
