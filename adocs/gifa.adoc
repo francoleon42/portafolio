@@ -1,7 +1,7 @@
 = Gestión Integral de Flota de Automotores (GIFA)
 
 
-image::/portafolio/adocs/imgProjects/imgGifalogo.jpg[width=200, height=200]
+image::/portafolio/adocs/imgDocu/gifa/imgGifalogo.jpg[width=200, height=200]
 
 == Gestión Integral de Flota de Automotores (GIFA) 
 Es un sistema desarrollado para optimizar la _gestion de flotas de transporte_, con un enfoque especial en la mejora de la operación de colectivos. Su objetivo principal es incrementar la _eficiencia operativa_ mediante el uso de soluciones _tecnológicas innovadoras_.
@@ -89,14 +89,14 @@ La infraestructura de GIFA está optimizada para la escalabilidad, eficiencia y 
     * _GitHub Actions:_ Automatización de integración y despliegue continuo, facilitando actualizaciones rápidas y seguras del sistema.
  
 
-image::/portafolio/adocs/imgProjects/imgGifaInfra.jpg[][width=600, height=600]
+image::/portafolio/adocs/imgDocu/gifa/imgGifaInfra.jpg[][width=600, height=600]
 
 === Diagrama Entidad-Relación (DER)
 Se creó un diseño sólido de base de datos relacional que actúa como el núcleo de la solución. Este modelo organiza la información clave, garantiza la integridad de los datos y permite escalar según las necesidades del sistema.
 
 La base de datos no solo cumple con los requerimientos actuales, sino que también está preparada para futuras integraciones y mejoras
 
-image::/portafolio/adocs/imgProjects/imgGifaDER.jpg[][width=700, height=700]
+image::/portafolio/adocs/imgDocu/gifa/imgGifaDER.jpg[][width=700, height=700]
 
 == Conclusión 
 Este proyecto me permitió desarrollarme profesionalmente en varios _aspectos clave_. Fortalecí mis _habilidades para trabajar en equipos colaborativos_ y en _proyectos de gran alcance_, aprendiendo a _coordinar tareas_ y a aplicar _metodologías ágiles_ para cumplir con _objetivos exigentes_.
