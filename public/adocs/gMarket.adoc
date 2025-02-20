@@ -74,7 +74,7 @@ Aplicación web/escritorio con funcionalidades avanzadas:
 
 === Diagrama de Clases
 
-image::/portafolio/adocs/imgGMarketD.Clases.jpg[width=1100, height=600]
+image::/portafolio/adocs/imgProjects/imgGMarketD.Clases.jpg[width=1100, height=600]
 
 *Descripción:*
 El diagrama modela las entidades principales del sistema:

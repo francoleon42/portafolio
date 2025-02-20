@@ -1,9 +1,12 @@
 
 
-import Certificate1 from '../assets/img/certificate-1.jpeg';
-import Certificate2 from '../assets/img/certificate-2.jpeg';
-import Certificate3 from '../assets/img/certificate-3.jpeg';
-import Certificate4 from '../assets/img/certificate-4.jpeg';
+import Certificate1 from '../assets/img/imgCertificados/certificate-1.jpeg';
+import Certificate2 from '../assets/img/imgCertificados/certificate-2.jpeg';
+import Certificate3 from '../assets/img/imgCertificados/certificate-3.jpeg';
+import Certificate4 from '../assets/img/imgCertificados/certificate-4.jpeg';
+
+import imgAbout from "../assets/img/imgPersonal/imgAbout.jpeg"
+import imgHome from "../assets/img/imgPersonal/imgHome.jpeg"
 
 import Theme1 from '../assets/theme/purple.png';
 import Theme2 from '../assets/theme/red.png';
@@ -22,8 +25,6 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import DataProjects from './DataProjects';
 import DataSkills from './DataSkills';
-import imgAbout from "../assets/img/imgAbout.jpeg"
-import imgHome from "../assets/img/imgHome.jpeg"
 import  cv from  '../assets/pdf/cv.pdf'
 
 

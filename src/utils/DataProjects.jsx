@@ -1,10 +1,10 @@
-import imgGifa from '../assets/img/imgGifa.jpeg';
-import imgIspeak from '../assets/img/imgIspeak.jpeg';
-import imgGestorHeladeria from '../assets/img/imgGestorHeladeria.jpeg';
-import imgGestorDeTareas from '../assets/img/imgGestorDeTareas.jpeg';
-import imgClusteringHumano from '../assets/img/imgClusteringHumano.jpeg';
-import imgAnimeapp from '../assets/img/imgAnimeapp.jpeg';
-import imgGiuseppeMarket from "../assets/img/GiuseppeMarketImg/GiuseppeMarketImg.jpeg"
+import imgGifa from '../assets/img/imgProjects/imgGifa.jpeg';
+import imgIspeak from '../assets/img/imgProjects/imgIspeak.jpeg';
+import imgGestorHeladeria from '../assets/img/imgProjects/imgGestorHeladeria.jpeg';
+import imgGestorDeTareas from '../assets/img/imgProjects/imgGestorDeTareas.jpeg';
+import imgClusteringHumano from '../assets/img/imgProjects/imgClusteringHumano.jpeg';
+import imgAnimeapp from '../assets/img/imgProjects/imgAnimeapp.jpeg';
+import imgGiuseppeMarket from "../assets/img/imgProjects/GiuseppeMarketImg.jpeg"
 
 import { FaExternalLinkAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
@@ -89,7 +89,7 @@ export const DataProjects = [
           id: 2,
           titulo: "Explicacion",
           icon: <MdLibraryBooks />,
-          path: "gMarket.adoc "
+          path: "gMarket.adoc"
         }
       ]
     },
@@ -116,7 +116,7 @@ export const DataProjects = [
       links:[
         {
           id: 1,
-          titulo:"Codigo-FullStack",
+          titulo:"Code-FullStack",
           icon: <FaGithub />,
           path: 'https://github.com/francoleon42/I-speak'
         },
@@ -192,9 +192,9 @@ export const DataProjects = [
       links:[
         {
           id: 1,
-          titulo:"codigo-?",
+          titulo:"code-fullStack",
           icon: <FaGithub />,
-          path: 'https://gitlab.com/FrankLeon42/gestorparatareas'
+          path: 'https://github.com/francoleon42/app-gestor-tareas'
         }
       ]
     },
@@ -217,7 +217,7 @@ export const DataProjects = [
       links: [
         {
           id: 1,
-          titulo:"codigo-fullStack",
+          titulo:"code-fullStack",
           icon: <FaGithub />,
           path: 'https://gitlab.com/FrankLeon42/clustering-humano/-/tree/master?ref_type=heads'
         },
