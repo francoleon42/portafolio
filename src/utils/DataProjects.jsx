@@ -6,8 +6,7 @@ import imgClusteringHumano from '../assets/img/imgProjects/imgClusteringHumano.j
 import imgAnimeapp from '../assets/img/imgProjects/imgAnimeapp.jpeg';
 import imgGiuseppeMarket from "../assets/img/imgProjects/GiuseppeMarketImg.jpeg"
 
-import { FaExternalLinkAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 import { FaJava, FaReact, FaGit, FaLinux, FaHtml5, FaCss3Alt, FaProjectDiagram } from "react-icons/fa";
 import { SiTypescript, SiNestjs, SiSequelize, SiJavascript, SiPostgresql, SiMysql, SiSpring, SiPostman, SiJunit5, SiCypress, SiHibernate, SiSecurityscorecard, SiSpringsecurity } from "react-icons/si";
