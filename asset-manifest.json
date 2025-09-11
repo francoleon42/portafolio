@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.9e1f7be8.css",
-    "main.js": "/portafolio/static/js/main.01f1bd5e.js",
+    "main.css": "/portafolio/static/css/main.7b002ccd.css",
+    "main.js": "/portafolio/static/js/main.99ece2d5.js",
     "static/media/imgIspeak.jpeg": "/portafolio/static/media/imgIspeak.6ab6b899f0492cab4f59.jpeg",
     "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
     "static/media/imgClusteringHumano.jpeg": "/portafolio/static/media/imgClusteringHumano.52674effacdf81699730.jpeg",
     "static/media/imgAnimeapp.jpeg": "/portafolio/static/media/imgAnimeapp.0383e9093c0707787fe7.jpeg",
     "static/media/certificate-3.jpeg": "/portafolio/static/media/certificate-3.e24ff5e2f5f852baa809.jpeg",
-    "static/media/cv.pdf": "/portafolio/static/media/cv.f0aa8de6835631ef9e2f.pdf",
     "static/media/imgGifa.jpeg": "/portafolio/static/media/imgGifa.1e26f82eeb2ba15f7a1a.jpeg",
     "static/media/certificate-2.jpeg": "/portafolio/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
     "static/media/imgGestorHeladeria.jpeg": "/portafolio/static/media/imgGestorHeladeria.1345ce9b8d1a04563109.jpeg",
@@ -17,13 +16,14 @@
     "static/media/GiuseppeMarketImg.jpeg": "/portafolio/static/media/GiuseppeMarketImg.40eb99e6b91c8167dfda.jpeg",
     "static/media/gifaDER.jpg": "/portafolio/static/media/gifaDER.8137a7ab529bd1d02d2f.jpg",
     "static/media/imgGestorDeTareas.jpeg": "/portafolio/static/media/imgGestorDeTareas.9422c912febbc370f543.jpeg",
+    "static/media/cv.pdf": "/portafolio/static/media/cv.5969b545fb3227bc7428.pdf",
     "static/media/imgAbout.jpeg": "/portafolio/static/media/imgAbout.aa89f1d08052c40d94e1.jpeg",
     "index.html": "/portafolio/index.html",
-    "main.9e1f7be8.css.map": "/portafolio/static/css/main.9e1f7be8.css.map",
-    "main.01f1bd5e.js.map": "/portafolio/static/js/main.01f1bd5e.js.map"
+    "main.7b002ccd.css.map": "/portafolio/static/css/main.7b002ccd.css.map",
+    "main.99ece2d5.js.map": "/portafolio/static/js/main.99ece2d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1f7be8.css",
-    "static/js/main.01f1bd5e.js"
+    "static/css/main.7b002ccd.css",
+    "static/js/main.99ece2d5.js"
   ]
 }
