@@ -3,6 +3,7 @@ import {FaDownload} from 'react-icons/fa'
 import './about.css'
 import  {CV} from "../../utils/Data" 
 import {fotoAbout} from "../../utils/Data" 
+import { DataAbout } from "../../utils/DataAbout&Brain"
 
 const About = () => {
   return (
@@ -11,13 +12,10 @@ const About = () => {
         <div className='about__info'>
           <h2 className='about__title'>Sobre <span>Mi</span></h2>
           <div className="about__description">
-            <p>¡Hola! Soy Franco León Costantini</p>
-            <p> recido en Buenos Aires, Argentina.</p>
-            <p>Me considero una persona dedicada, entusiasta y curiosa por las tecnologías y
-              tambien amante de aprender y resolver problemas.
-            </p>
-            <p>Cuando no estoy escribiendo líneas de código, probablemente estoy descifrando la lógica de los chistes de programación. ¿Sabías que el 80% de los errores se encuentran entre el teclado y la silla?
-            </p>
+            <p>{DataAbout.presentacion}</p>
+            <p>{DataAbout.textoUno}</p>
+            <p>{DataAbout.textoDos}</p>
+            <p>{DataAbout.textoTres}</p>
           </div>
           <a href={CV} download='' className="btn">Descargar CV<span><FaDownload/></span></a>
         </div>
