@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.7b002ccd.css",
-    "main.js": "/portafolio/static/js/main.99ece2d5.js",
+    "main.css": "/portafolio/static/css/main.3bb62461.css",
+    "main.js": "/portafolio/static/js/main.0286222c.js",
     "static/media/imgIspeak.jpeg": "/portafolio/static/media/imgIspeak.6ab6b899f0492cab4f59.jpeg",
     "static/media/certificate-4.jpeg": "/portafolio/static/media/certificate-4.3c0fcbbc0150624e35be.jpeg",
     "static/media/imgClusteringHumano.jpeg": "/portafolio/static/media/imgClusteringHumano.52674effacdf81699730.jpeg",
@@ -10,20 +10,20 @@
     "static/media/imgGifa.jpeg": "/portafolio/static/media/imgGifa.1e26f82eeb2ba15f7a1a.jpeg",
     "static/media/certificate-2.jpeg": "/portafolio/static/media/certificate-2.e70c63ebfffad50a68d6.jpeg",
     "static/media/imgGestorHeladeria.jpeg": "/portafolio/static/media/imgGestorHeladeria.1345ce9b8d1a04563109.jpeg",
-    "static/media/imgHome.jpeg": "/portafolio/static/media/imgHome.6507e8f2eb2efec7111c.jpeg",
+    "static/media/Franco_Leon_Costantini_CV.pdf": "/portafolio/static/media/Franco_Leon_Costantini_CV.8d7b6fe876609c1afccf.pdf",
     "static/media/certificate-1.jpeg": "/portafolio/static/media/certificate-1.b1c5b22d3e75cfcd5c45.jpeg",
+    "static/media/imgHome.jpeg": "/portafolio/static/media/imgHome.ff7bd09aca2c869fc345.jpeg",
+    "static/media/imgAbout.jpeg": "/portafolio/static/media/imgAbout.9a98594d79cf165a1704.jpeg",
     "static/media/segundoCerebro.jpeg": "/portafolio/static/media/segundoCerebro.b0215665f58d3a5d02f8.jpeg",
     "static/media/GiuseppeMarketImg.jpeg": "/portafolio/static/media/GiuseppeMarketImg.40eb99e6b91c8167dfda.jpeg",
     "static/media/gifaDER.jpg": "/portafolio/static/media/gifaDER.8137a7ab529bd1d02d2f.jpg",
     "static/media/imgGestorDeTareas.jpeg": "/portafolio/static/media/imgGestorDeTareas.9422c912febbc370f543.jpeg",
-    "static/media/cv.pdf": "/portafolio/static/media/cv.5969b545fb3227bc7428.pdf",
-    "static/media/imgAbout.jpeg": "/portafolio/static/media/imgAbout.aa89f1d08052c40d94e1.jpeg",
     "index.html": "/portafolio/index.html",
-    "main.7b002ccd.css.map": "/portafolio/static/css/main.7b002ccd.css.map",
-    "main.99ece2d5.js.map": "/portafolio/static/js/main.99ece2d5.js.map"
+    "main.3bb62461.css.map": "/portafolio/static/css/main.3bb62461.css.map",
+    "main.0286222c.js.map": "/portafolio/static/js/main.0286222c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b002ccd.css",
-    "static/js/main.99ece2d5.js"
+    "static/css/main.3bb62461.css",
+    "static/js/main.0286222c.js"
   ]
 }
