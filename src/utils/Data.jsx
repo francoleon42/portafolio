@@ -25,7 +25,7 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 import DataProjects from './DataProjects';
 import DataSkills from './DataSkills';
-import  cv from  '../assets/pdf/cv.pdf'
+import  cv from  '../assets/pdf/Franco_Leon_Costantini_CV.pdf'
 
 
 export const projects = DataProjects;

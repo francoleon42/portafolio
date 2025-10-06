@@ -29,7 +29,7 @@ function App() {
                   <NavBar />
                   <Home />
                   <About />
-                  <CerebroDigital />
+                  {/* <CerebroDigital /> */}
                   <Experiencia />
                   <Projects />
                   <Skills />

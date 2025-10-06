@@ -5,10 +5,10 @@
 
 export const DataAbout = {
 
-  presentacion: "¡Hola! Soy Franco León Costantini",
+  presentacion: "¡Hola! Soy Franco León Costantini.",
   textoUno: "recido en Buenos Aires, Argentina.",
-  textoDos :"Me considero una persona dedicada, entusiasta y curiosa por las tecnologías y tambien amante de aprender y resolver problemas",
-  textoTres: "Cuando no estoy escribiendo líneas de código, probablemente estoy descifrando la lógica de los chistes de programación. ¿Sabías que el 80% de los errores se encuentran entre el teclado y la silla?"
+  textoDos :"Me considero una persona dedicada, entusiasta y curiosa por las tecnologías. Disfruto especialmente de comprender los problemas en profundidad y diseñar soluciones eficientes que generen impacto real.",
+  textoTres: "Más allá de lo técnico, me motiva el aprendizaje continuo y el trabajo en equipo como motor para lograr resultados sólidos y sostenibles."
 }
 
 

@@ -16,7 +16,7 @@ const Home = () => {
           <h1>
             <span>Franco</span> Costantini
           </h1>
-          <h2 className="banner__job">Desarrollador Web</h2>
+          <h2 className="banner__job">Desarrollador Software</h2>
           <div className="home__button">
           <Link 
             to='about' 
