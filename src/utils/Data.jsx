@@ -54,22 +54,22 @@ export const secciones = [
     section: 'experiencia'
   },
   {
-    id: 3,
-    name: 'Proyectos',
-    section: 'projects'
-  },
-  {
     id: 4,
     name: 'Skills',
     section: 'skills'
   },
   {
     id: 5,
+    name: 'Proyectos',
+    section: 'projects'
+  },
+  {
+    id: 6,
     name: 'Certificaciones',
     section: 'certificate'
   },
   {
-    id: 6,
+    id: 7,
     name: 'Contacto',
     section: 'contact'
   },

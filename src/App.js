@@ -31,8 +31,8 @@ function App() {
                   <About />
                   {/* <CerebroDigital /> */}
                   <Experiencia />
-                  <Projects />
                   <Skills />
+                  <Projects />
                   <Certificates />
                   <Footer />
                   <Whatsapp />
