@@ -1,7 +1,7 @@
 import React from 'react'
-import {FaDownload} from 'react-icons/fa'
+import { FaDownload } from 'react-icons/fa'
 import './about.css'
-import  {CV} from "../../utils/Data" 
+import { CV } from "../../utils/Data"
 // import {fotoAbout} from "../../utils/Data" 
 import { DataAbout } from "../../utils/DataAbout&Brain"
 
@@ -12,12 +12,12 @@ const About = () => {
         <div className='about__info'>
           <h2 className='about__title'>Sobre <span>Mi</span></h2>
           <div className="about__description">
-            <p>{DataAbout.presentacion}</p>
-            <p>{DataAbout.textoUno}</p>
-            <p>{DataAbout.textoDos}</p>
-            <p>{DataAbout.textoTres}</p>
+            <p dangerouslySetInnerHTML={{ __html: DataAbout.presentacion }} />
+            <p dangerouslySetInnerHTML={{ __html: DataAbout.textoUno }} />
+            <p dangerouslySetInnerHTML={{ __html: DataAbout.textoDos }} />
+            <p dangerouslySetInnerHTML={{ __html: DataAbout.textoTres }} />
           </div>
-          <a href={CV} download='Franco_Leon_Costantini_CV.pdf' className="btn">Descargar CV<span><FaDownload/></span></a>
+          <a href={CV} download='Franco_Leon_Costantini_CV.pdf' className="btn">Descargar CV<span><FaDownload /></span></a>
         </div>
         {/* <div className="about__img">
           <div className='border-img'>
@@ -26,7 +26,7 @@ const About = () => {
         </div> */}
       </div>
     </section>
-          
+
   )
 }
 

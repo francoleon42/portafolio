@@ -4,12 +4,12 @@
 //TODO : revisar si es buena idea pasar todo a firebase o algunas cosas
 
 export const DataAbout = {
-
-  presentacion: "¡Hola! Soy Franco León Costantini.",
-  textoUno: "recido en Buenos Aires, Argentina.",
-  textoDos :"Me considero una persona dedicada, entusiasta y curiosa por las tecnologías. Disfruto especialmente de comprender los problemas en profundidad y diseñar soluciones eficientes que generen impacto real.",
+  presentacion: "¡Hola! Soy <strong>Franco León Costantini</strong>.",
+  textoUno: "Recido en <strong>Buenos Aires, Argentina</strong>.",
+  textoDos: "Me considero una persona <strong>dedicada, entusiasta y curiosa</strong> por las tecnologías.",
   textoTres: "Más allá de lo técnico, me motiva el aprendizaje continuo y el trabajo en equipo como motor para lograr resultados sólidos y sostenibles."
 }
+
 
 
 export const DataCerebroDigital = {
